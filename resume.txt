@@ -4,9 +4,9 @@ arockwell@gmail.com
 
 EXPERIENCE
 Designed and implemented two internal web applications with over 100 users.
-Helped maintain legacy web applications on a 200 KLOC codebase.
-Lead migration of moving more than 20 web applications from Jetspeed Portal to JBoss Portal.
-Implemented automated software testing during development for new projects using TestNG.
+Helped maintain legacy web applications on a large code base (>200 KLOC).
+Led migration of more than 20 web applications from Jetspeed Portal to JBoss Portal.
+Implemented automated software testing to improve development time using TestNG.
 Developed an automated backup solution for DB2 using TSM to handle 40 GB of data.
 Designed and implemented an automated database growth size tracking system.
 Helped develop the information architecture for the UF home page (www.ufl.edu).
