@@ -1,22 +1,18 @@
-5422 NW 38th Place • Gainesville, Florida 32606
-Phone (352) 281-6571 • E-mail arockwell@gmail.com
-ALEXANDER ROCKWELL
+Alex Rockwell
+arockwell@gmail.com
+352-281-6571 
 
 EXPERIENCE
-	
-Lead developer on two internal large web applications with over 100 users.
+Designed and implemented two internal web applications with over 100 users.
 Helped maintain legacy web applications on a 200 KLOC codebase.
-Lead migration effort of moving more than 20 web applications from Jetspeed Portal to JBoss Portal.
-Lead effort to begin using automated software testing during development.
+Lead migration of moving more than 20 web applications from Jetspeed Portal to JBoss Portal.
+Implemented automated software testing during development for new projects using TestNG.
 Developed an automated backup solution for DB2 using TSM to handle 40 GB of data.
-Created and executed migration plan of multiple databases from DB2 version 7 to DB2 version 8.
 Designed and implemented an automated database growth size tracking system.
-Helped develop the new information architecture for the current UF home page (www.ufl.edu).
-Helped design and implement previous version of the UF Campus Map using Java Servlets.
-
+Helped develop the information architecture for the UF home page (www.ufl.edu).
+Helped design and implement previous version of the UF Campus Map.
 
 WORK HISTORY
-	
 Web Developer, University of Florida, Department of Housing, 2008-current
 Design and implement web sites for the Housing Portal (my.housing.ufl.edu).
 
@@ -27,28 +23,27 @@ Web Developer, University of Florida, Web Administration, 2001-2004
 Design and implement websites using Perl, JSP, Java Servlets, DB2, and SQL.
 
 System Administrator, University of Florida, Information Technology Services, 2000-2001
-
 Technical support, administration of Linux server.
 
-
 SKILLS
-	
-Programming Languages: Significant experience with Java, Javascript and Ruby. Some experience with Perl Python, and PHP.
-Operating Systems: Significant experience with Windows, Linux and Mac OS X. Some experience with FreeBSD.
-Programming Frameworks: Significant experience with Struts 1, Hibernate and jQuery. Some experience with Ruby on Rails and Django.
+Programming Languages: 
+  - Significant experience with Java, Javascript and Ruby. 
+  - Some experience with Perl Python, and PHP.
+Operating Systems: 
+  - Significant experience with Windows, Linux and Mac OS X. 
+  - Some experience with FreeBSD.
+Programming Frameworks: 
+  - Significant experience with Struts 1, Hibernate and jQuery. 
+  - Some experience with Ruby on Rails and Django.
 Web Technologies: Significant experience with HTML, CSS, and XML.
-Software Tools: Vim, Subversion, Git, Eclipse and Emacs.
-Database Technologies: Significant experience with DB2. Some experience with PostgreSQL and MySQL.
-
+Software Tools: Significant experience with Vim, Subversion, Git, Eclipse and Emacs.
+Databases: Significant experience with DB2. Some experience with PostgreSQL and MySQL.
 
 EDUCATION
-
 University of Florida, Gainesville, Florida
 BS in Computer Engineering; May 2004
 
-
 REFERENCES
-
 Daniel Westermann-Clark—Senior Web Developer—352-273-1142
 Kevin Hanson—Computer Support Manager—352-273-6204
 Mark Trammell—UF Web Administrator—mark@trammell.com
