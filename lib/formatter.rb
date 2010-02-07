@@ -85,3 +85,40 @@ class HtmlFormatter
     return @result
   end
 end
+
+class PdfFormatter
+  attr :pdf
+
+  def initialize
+    @pdf = PDF::Writer.new
+    @pdf.select_font "Times-Roman"
+  end
+
+  def heading(string)
+    @pdf.text(string.upcase + "\n")
+  end
+
+  def para(string)
+    @pdf.text(string + "\n")
+  end
+
+  def list(strings)
+    strings.each do |string|
+      @pdf.text(string + "\n")
+    end
+  end
+
+  def break_line()
+    @pdf.text("\n")
+  end
+
+  def start_document
+  end
+
+  def end_document
+  end
+
+  def render
+    return @pdf.render
+  end
+end
