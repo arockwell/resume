@@ -4,8 +4,9 @@ require 'rubygems'
 require 'json'
 
 def generate_output(resume, formatter)
+	result = formatter.start_document
 	personal_info = resume['personal_info']
-	result = formatter.para(personal_info['name'])
+	result += formatter.para(personal_info['name'])
 	result += formatter.para(personal_info['email']) 
 	result += formatter.para(personal_info['phone'])
 	result += formatter.break_line
@@ -50,6 +51,7 @@ def generate_output(resume, formatter)
 	result += formatter.heading("REFERENCES")
 	references.each { |ref| result += formatter.para(ref) }
 
+	result += formatter.end_document
 	return result
 end
 
@@ -72,6 +74,14 @@ class PlainTextFormatter
 
 	def break_line()
 		return "\n"
+	end
+
+	def start_document
+		return ""
+	end
+
+	def end_document
+		return ""
 	end
 end
 
@@ -96,6 +106,20 @@ class HtmlFormatter
 	def break_line()
 		return "<br />\n"
 	end
+
+	def start_document
+		return "<html>\n" +
+			"<head>\n" +
+			"<link rel=\"stylesheet\" href=\"resume.css\" />\n" +
+			"</head>\n" +
+			"<body>\n"
+	end
+
+	def end_document
+		return "</body>\n" +
+			"</html>"
+	end
+
 end
 
 json_resume = "resume.js"
