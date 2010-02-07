@@ -63,7 +63,7 @@ class Generator
 	def get_jsonified_resume
 		resume = ""
 		File.open(@json_resume).each_line { |line| resume += line }
-		 return JSON.parse(resume)
+		return JSON.parse(resume)
 	end
 
 	def generate_readme
