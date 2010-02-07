@@ -2,12 +2,6 @@ require 'rubygems'
 require 'json'
 
 class Generator
-	attr_accessor :json_resume
-   
-	def initialize	
-		@json_resume = "data/resume.js"
-	end
-
 	def generate_output(resume, formatter)
 		result = formatter.start_document
 		personal_info = resume['personal_info']
@@ -60,34 +54,10 @@ class Generator
 		return result
 	end
 
-	def get_jsonified_resume
-		resume = ""
-		File.open(@json_resume).each_line { |line| resume += line }
-		return JSON.parse(resume)
+	def generate_resume(resume_data, location, formatter)
+		resume = generate_output(resume_data, formatter)
+		file = File.new(location, "w")
+		file.puts(resume)
 	end
 
-	def generate_readme
-		resume = get_jsonified_resume
-		formatter = PlainTextFormatter.new
-		resume_txt = generate_output(resume, formatter)
-		txt_file = File.new("README", "w")
-		txt_file.puts(resume_txt)
-		print resume_txt
-	end
-
-	def generate_txt
-		resume = get_jsonified_resume
-		formatter = PlainTextFormatter.new
-		resume_txt = generate_output(resume, formatter)
-		txt_file = File.new("resume.txt", "w")
-		txt_file.puts(resume_txt)
-	end
-
-	def generate_html
-		resume = get_jsonified_resume
-		formatter = HtmlFormatter.new
-		resume_html = generate_output(resume, formatter)
-		html_file = File.new("resume.html", 'w')
-		html_file.puts(resume_html)
-	end
 end
