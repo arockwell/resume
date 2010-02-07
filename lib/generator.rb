@@ -59,5 +59,4 @@ class Generator
     file = File.new(location, "w")
     file.puts(resume)
   end
-
 end

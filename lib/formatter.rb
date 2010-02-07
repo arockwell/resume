@@ -62,5 +62,4 @@ class HtmlFormatter
     return "</body>\n" +
       "</html>"
   end
-
 end
