@@ -17,7 +17,8 @@ endobj
 /Resources <<
 /ProcSet 4 0 R
 /Font << 
-/F1 8 0 R >>
+/F1 8 0 R
+/F2 10 0 R >>
 >>
 /MediaBox [0 0 612.0 792.0]
  >>
@@ -27,7 +28,7 @@ endobj
 endobj
 5 0 obj
 <<
-/CreationDate (D:201002070701)
+/CreationDate (D:201002070803)
 /Creator (rake)
 /Producer (PDF::Writer for Ruby)
 >>
@@ -40,108 +41,174 @@ endobj
 endobj
 7 0 obj
 <<
-/Length 4446 >>
+/Length 6540 >>
 stream
 
 0.000 0.000 0.000 rg
 0.000 0.000 0.000 RG
-BT 36.000 744.840 Td /F1 10.0 Tf 0 Tr (Alex Rockwell
+BT 36.000 742.608 Td /F1 12.0 Tf 0 Tr (Alex Rockwell
 ) Tj ET
-BT 36.000 733.680 Td /F1 10.0 Tf 0 Tr (arockwell@gmail.com
+BT 36.000 729.216 Td /F1 12.0 Tf 0 Tr (arockwell@gmail.com
 ) Tj ET
-BT 36.000 722.520 Td /F1 10.0 Tf 0 Tr (352-281-6571
+BT 36.000 715.824 Td /F1 12.0 Tf 0 Tr (352-281-6571
 ) Tj ET
-BT 36.000 711.360 Td /F1 10.0 Tf 0 Tr (
+BT 36.000 702.432 Td /F1 12.0 Tf 0 Tr (
 ) Tj ET
-BT 36.000 700.200 Td /F1 10.0 Tf 0 Tr (EXPERIENCE
+BT 36.000 689.040 Td /F2 12.0 Tf 0 Tr (EXPERIENCE) Tj /F1 12.0 Tf 0 Tr (
 ) Tj ET
-BT 36.000 689.040 Td /F1 10.0 Tf 0 Tr (Designed and implemented two internal web applications with over 100 users.
+BT 36.000 675.648 Td /F1 12.0 Tf 0 Tr (Designed and implemented two internal web applications with over 100 users.
 ) Tj ET
-BT 36.000 677.880 Td /F1 10.0 Tf 0 Tr (Helped maintain legacy web applications on a large code base \(>200 KLOC\).
+BT 36.000 662.256 Td /F1 12.0 Tf 0 Tr (Helped maintain legacy web applications on a large code base \(>200 KLOC\).
 ) Tj ET
-BT 36.000 666.720 Td /F1 10.0 Tf 0 Tr (Led migration of more than 20 web applications from Jetspeed Portal to JBoss Portal.
+BT 36.000 648.864 Td /F1 12.0 Tf 0 Tr (Led migration of more than 20 web applications from Jetspeed Portal to JBoss Portal.
 ) Tj ET
-BT 36.000 655.560 Td /F1 10.0 Tf 0 Tr (Implemented automated software testing to improve development time using TestNG.
+BT 36.000 635.472 Td /F1 12.0 Tf 0 Tr (Implemented automated software testing to improve development time using TestNG.
 ) Tj ET
-BT 36.000 644.400 Td /F1 10.0 Tf 0 Tr (Developed an automated backup solution for DB2 using TSM to handle 40 GB of data.
+BT 36.000 622.080 Td /F1 12.0 Tf 0 Tr (Developed an automated backup solution for DB2 using TSM to handle 40 GB of data.
 ) Tj ET
-BT 36.000 633.240 Td /F1 10.0 Tf 0 Tr (Designed and implemented an automated database growth size tracking system.
+BT 36.000 608.688 Td /F1 12.0 Tf 0 Tr (Designed and implemented an automated database growth size tracking system.
 ) Tj ET
-BT 36.000 622.080 Td /F1 10.0 Tf 0 Tr (Helped develop the information architecture for the UF home page \(www.ufl.edu\).
+BT 36.000 595.296 Td /F1 12.0 Tf 0 Tr (Helped develop the information architecture for the UF home page \(www.ufl.edu\).
 ) Tj ET
-BT 36.000 610.920 Td /F1 10.0 Tf 0 Tr (Helped design and implement previous version of the UF Campus Map.
+BT 36.000 581.904 Td /F1 12.0 Tf 0 Tr (Helped design and implement previous version of the UF Campus Map.
 ) Tj ET
-BT 36.000 599.760 Td /F1 10.0 Tf 0 Tr (
+BT 36.000 568.512 Td /F1 12.0 Tf 0 Tr (
 ) Tj ET
-BT 36.000 588.600 Td /F1 10.0 Tf 0 Tr (WORK HISTORY
+BT 36.000 555.120 Td /F2 12.0 Tf 0 Tr (WORK HISTORY) Tj /F1 12.0 Tf 0 Tr (
 ) Tj ET
-BT 36.000 577.440 Td /F1 10.0 Tf 0 Tr (Web Developer, University of Florida, Department of Housing, 2008-current
+BT 36.000 541.728 Td /F1 12.0 Tf 0 Tr (Web Developer, University of Florida, Department of Housing, 2008-current
 ) Tj ET
-BT 36.000 566.280 Td /F1 10.0 Tf 0 Tr (Design and implement web sites for the Housing Portal \(my.housing.ufl.edu\).
+BT 36.000 528.336 Td /F1 12.0 Tf 0 Tr (Design and implement web sites for the Housing Portal \(my.housing.ufl.edu\).
 ) Tj ET
-BT 36.000 555.120 Td /F1 10.0 Tf 0 Tr (
+BT 36.000 514.944 Td /F1 12.0 Tf 0 Tr (
 ) Tj ET
-BT 36.000 543.960 Td /F1 10.0 Tf 0 Tr (Database Administrator, University of Florida CNS, 2004-2008
+BT 36.000 501.552 Td /F1 12.0 Tf 0 Tr (Database Administrator, University of Florida CNS, 2004-2008
 ) Tj ET
-BT 36.000 532.800 Td /F1 10.0 Tf 0 Tr (Support, tune, and maintain DB2 on Linux, Windows, and AIX.
+BT 36.000 488.160 Td /F1 12.0 Tf 0 Tr (Support, tune, and maintain DB2 on Linux, Windows, and AIX.
 ) Tj ET
-BT 36.000 521.640 Td /F1 10.0 Tf 0 Tr (
+BT 36.000 474.768 Td /F1 12.0 Tf 0 Tr (
 ) Tj ET
-BT 36.000 510.480 Td /F1 10.0 Tf 0 Tr (Web Developer, University of Florida, Web Administration, 2001-2004
+BT 36.000 461.376 Td /F1 12.0 Tf 0 Tr (Web Developer, University of Florida, Web Administration, 2001-2004
 ) Tj ET
-BT 36.000 499.320 Td /F1 10.0 Tf 0 Tr (Design and implement websites using Perl, JSP, and Java Servlets.
+BT 36.000 447.984 Td /F1 12.0 Tf 0 Tr (Design and implement websites using Perl, JSP, and Java Servlets.
 ) Tj ET
-BT 36.000 488.160 Td /F1 10.0 Tf 0 Tr (
+BT 36.000 434.592 Td /F1 12.0 Tf 0 Tr (
 ) Tj ET
-BT 36.000 477.000 Td /F1 10.0 Tf 0 Tr (System Administrator, University of Florida, Information Technology Services, 2000-2001
+BT 36.000 421.200 Td /F1 12.0 Tf 0 Tr (System Administrator, University of Florida, Information Technology Services, 2000-2001
 ) Tj ET
-BT 36.000 465.840 Td /F1 10.0 Tf 0 Tr (Technical support, administration of Linux server.
+BT 36.000 407.808 Td /F1 12.0 Tf 0 Tr (Technical support, administration of Linux server.
 ) Tj ET
-BT 36.000 454.680 Td /F1 10.0 Tf 0 Tr (
+BT 36.000 394.416 Td /F1 12.0 Tf 0 Tr (
 ) Tj ET
-BT 36.000 443.520 Td /F1 10.0 Tf 0 Tr (SKILLS
+BT 36.000 381.024 Td /F2 12.0 Tf 0 Tr (SKILLS) Tj /F1 12.0 Tf 0 Tr (
 ) Tj ET
-BT 36.000 432.360 Td /F1 10.0 Tf 0 Tr (Programming Languages
+BT 36.000 367.632 Td /F1 12.0 Tf 0 Tr (Programming Languages
 ) Tj ET
-BT 36.000 421.200 Td /F1 10.0 Tf 0 Tr (Significant experience with Java, Ruby, and Javascript.
+BT 36.000 354.240 Td /F1 12.0 Tf 0 Tr (     ) Tj ET
+q
+2.616 w 0 J 0 j
+46.768 356.987 m
+46.768 357.539 46.320 357.987 45.768 357.987 c
+45.216 357.987 44.768 357.539 44.768 356.987 c
+44.768 356.435 45.216 355.987 45.768 355.987 c
+46.320 355.987 46.768 356.435 46.768 356.987 c
+45.768 356.987 m S
+1 w
+Q
+BT 51.000 354.240 Td 0.000 Tw /F1 12.0 Tf 0 Tr (Significant experience with Java, Ruby, and Javascript.
 ) Tj ET
-BT 36.000 410.040 Td /F1 10.0 Tf 0 Tr (Some experience with Perl, Python, and PHP.
+BT 36.000 340.848 Td 0.000 Tw /F1 12.0 Tf 0 Tr (     ) Tj ET
+q
+2.616 w 0 J 0 j
+46.768 343.595 m
+46.768 344.147 46.320 344.595 45.768 344.595 c
+45.216 344.595 44.768 344.147 44.768 343.595 c
+44.768 343.043 45.216 342.595 45.768 342.595 c
+46.320 342.595 46.768 343.043 46.768 343.595 c
+45.768 343.595 m S
+1 w
+Q
+BT 51.000 340.848 Td /F1 12.0 Tf 0 Tr (Some experience with Perl, Python, and PHP.
 ) Tj ET
-BT 36.000 398.880 Td /F1 10.0 Tf 0 Tr (Programming Frameworks
+BT 36.000 327.456 Td 0.000 Tw /F1 12.0 Tf 0 Tr (Programming Frameworks
 ) Tj ET
-BT 36.000 387.720 Td /F1 10.0 Tf 0 Tr (Significant experience with Struts, Seam, Hibernate, and jQuery.
+BT 36.000 314.064 Td 0.000 Tw /F1 12.0 Tf 0 Tr (     ) Tj ET
+q
+2.616 w 0 J 0 j
+46.768 316.811 m
+46.768 317.363 46.320 317.811 45.768 317.811 c
+45.216 317.811 44.768 317.363 44.768 316.811 c
+44.768 316.259 45.216 315.811 45.768 315.811 c
+46.320 315.811 46.768 316.259 46.768 316.811 c
+45.768 316.811 m S
+1 w
+Q
+BT 51.000 314.064 Td /F1 12.0 Tf 0 Tr (Significant experience with Struts, Seam, Hibernate, and jQuery.
 ) Tj ET
-BT 36.000 376.560 Td /F1 10.0 Tf 0 Tr (Some experience with Ruby on Rails.
+BT 36.000 300.672 Td 0.000 Tw /F1 12.0 Tf 0 Tr (     ) Tj ET
+q
+2.616 w 0 J 0 j
+46.768 303.419 m
+46.768 303.971 46.320 304.419 45.768 304.419 c
+45.216 304.419 44.768 303.971 44.768 303.419 c
+44.768 302.867 45.216 302.419 45.768 302.419 c
+46.320 302.419 46.768 302.867 46.768 303.419 c
+45.768 303.419 m S
+1 w
+Q
+BT 51.000 300.672 Td /F1 12.0 Tf 0 Tr (Some experience with Ruby on Rails.
 ) Tj ET
-BT 36.000 365.400 Td /F1 10.0 Tf 0 Tr (Web Technologies: Significant experience with HTML, CSS, and XML.
+BT 36.000 287.280 Td 0.000 Tw /F1 12.0 Tf 0 Tr (Web Technologies: Significant experience with HTML, CSS, and XML.
 ) Tj ET
-BT 36.000 354.240 Td /F1 10.0 Tf 0 Tr (Software Tools: Significant experience with Vim, Subversion, Git, Eclipse, and Emacs.
+BT 36.000 273.888 Td 0.000 Tw /F1 12.0 Tf 0 Tr (Software Tools: Significant experience with Vim, Subversion, Git, Eclipse, and Emacs.
 ) Tj ET
-BT 36.000 343.080 Td /F1 10.0 Tf 0 Tr (Databases
+BT 36.000 260.496 Td 0.000 Tw /F1 12.0 Tf 0 Tr (Databases
 ) Tj ET
-BT 36.000 331.920 Td /F1 10.0 Tf 0 Tr (Significant experience with DB2.
+BT 36.000 247.104 Td 0.000 Tw /F1 12.0 Tf 0 Tr (     ) Tj ET
+q
+2.616 w 0 J 0 j
+46.768 249.851 m
+46.768 250.403 46.320 250.851 45.768 250.851 c
+45.216 250.851 44.768 250.403 44.768 249.851 c
+44.768 249.299 45.216 248.851 45.768 248.851 c
+46.320 248.851 46.768 249.299 46.768 249.851 c
+45.768 249.851 m S
+1 w
+Q
+BT 51.000 247.104 Td /F1 12.0 Tf 0 Tr (Significant experience with DB2.
 ) Tj ET
-BT 36.000 320.760 Td /F1 10.0 Tf 0 Tr (Some experience with PostgreSQL and MySQL.
+BT 36.000 233.712 Td 0.000 Tw /F1 12.0 Tf 0 Tr (     ) Tj ET
+q
+2.616 w 0 J 0 j
+46.768 236.459 m
+46.768 237.011 46.320 237.459 45.768 237.459 c
+45.216 237.459 44.768 237.011 44.768 236.459 c
+44.768 235.907 45.216 235.459 45.768 235.459 c
+46.320 235.459 46.768 235.907 46.768 236.459 c
+45.768 236.459 m S
+1 w
+Q
+BT 51.000 233.712 Td /F1 12.0 Tf 0 Tr (Some experience with PostgreSQL and MySQL.
 ) Tj ET
-BT 36.000 309.600 Td /F1 10.0 Tf 0 Tr (Operating Systems: Significant experience with Windows, Linux, and Mac OS X.
+BT 36.000 220.320 Td 0.000 Tw /F1 12.0 Tf 0 Tr (Operating Systems: Significant experience with Windows, Linux, and Mac OS X.
 ) Tj ET
-BT 36.000 298.440 Td /F1 10.0 Tf 0 Tr (
+BT 36.000 206.928 Td 0.000 Tw /F1 12.0 Tf 0 Tr (
 ) Tj ET
-BT 36.000 287.280 Td /F1 10.0 Tf 0 Tr (EDUCATION
+BT 36.000 193.536 Td 0.000 Tw /F2 12.0 Tf 0 Tr (EDUCATION) Tj /F1 12.0 Tf 0 Tr (
 ) Tj ET
-BT 36.000 276.120 Td /F1 10.0 Tf 0 Tr (University of Florida, Gainesville, Florida
+BT 36.000 180.144 Td 0.000 Tw /F1 12.0 Tf 0 Tr (University of Florida, Gainesville, Florida
 ) Tj ET
-BT 36.000 264.960 Td /F1 10.0 Tf 0 Tr (BS in Computer Engineering; May 2004
+BT 36.000 166.752 Td 0.000 Tw /F1 12.0 Tf 0 Tr (BS in Computer Engineering; May 2004
 ) Tj ET
-BT 36.000 253.800 Td /F1 10.0 Tf 0 Tr (
+BT 36.000 153.360 Td 0.000 Tw /F1 12.0 Tf 0 Tr (
 ) Tj ET
-BT 36.000 242.640 Td /F1 10.0 Tf 0 Tr (REFERENCES
+BT 36.000 139.968 Td 0.000 Tw /F2 12.0 Tf 0 Tr (REFERENCES) Tj /F1 12.0 Tf 0 Tr (
 ) Tj ET
-BT 36.000 231.480 Td /F1 10.0 Tf 0 Tr (Daniel Westermann-Clark - Senior Web Developer - 352-871-8206
+BT 36.000 126.576 Td 0.000 Tw /F1 12.0 Tf 0 Tr (Daniel Westermann-Clark - Senior Web Developer - 352-871-8206
 ) Tj ET
-BT 36.000 220.320 Td /F1 10.0 Tf 0 Tr (Kevin Hanson - Computer Support Manager - 352-273-6204
+BT 36.000 113.184 Td 0.000 Tw /F1 12.0 Tf 0 Tr (Kevin Hanson - Computer Support Manager - 352-273-6204
 ) Tj ET
-BT 36.000 209.160 Td /F1 10.0 Tf 0 Tr (Mark Trammell - Former UF Web Administrator - mark@trammell.com
+BT 36.000 99.792 Td 0.000 Tw /F1 12.0 Tf 0 Tr (Mark Trammell - Former UF Web Administrator - mark@trammell.com
 ) Tj ET
 endstream
 endobj
@@ -154,23 +221,39 @@ endobj
 /Encoding /WinAnsiEncoding
 >>
 endobj
+9 0 obj
+<< /Type /Encoding
+/BaseEncoding /WinAnsiEncoding
+
+>>
+endobj
+10 0 obj
+<< /Type /Font
+/Subtype /Type1
+/Name /F2
+/BaseFont /Times-Bold
+/Encoding 9 0 R
+>>
+endobj
 xref
-0 9
+0 11
 0000000000 65535 f 
 0000000019 00000 n 
 0000000083 00000 n 
 0000000120 00000 n 
-0000000262 00000 n 
-0000000291 00000 n 
-0000000392 00000 n 
-0000000455 00000 n 
-0000004954 00000 n 
+0000000273 00000 n 
+0000000302 00000 n 
+0000000403 00000 n 
+0000000466 00000 n 
+0000007059 00000 n 
+0000007168 00000 n 
+0000007237 00000 n 
 
 trailer
-  << /Size 9
+  << /Size 11
      /Root 1 0 R
  /Info 5 0 R
   >>
 startxref
-5063
+7335
 %%EOF

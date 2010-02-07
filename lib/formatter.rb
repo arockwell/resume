@@ -1,4 +1,5 @@
 require 'pdf/writer'
+require 'pdf/techbook'
 
 class PlainTextFormatter
   attr :result
@@ -88,28 +89,33 @@ end
 
 class PdfFormatter
   attr :pdf
+  attr :result
 
   def initialize
-    @pdf = PDF::Writer.new
+    @result = ""
+    @pdf = PDF::TechBook.new
     @pdf.select_font "Times-Roman"
   end
 
   def heading(string)
-    @pdf.text(string.upcase + "\n")
+    @result += ".pre\n"
+    @result += "<b>" + string.upcase + "</b>\n"
   end
 
   def para(string)
-    @pdf.text(string + "\n")
+    @result += ".pre\n"
+    @result += string + "\n"
   end
 
   def list(strings)
     strings.each do |string|
-      @pdf.text(string + "\n")
+      @result += "     <C:bullet/>" +string + "\n"
     end
   end
 
   def break_line()
-    @pdf.text("\n")
+    @result += ".pre\n"
+    @result += "\n"
   end
 
   def start_document
@@ -119,6 +125,7 @@ class PdfFormatter
   end
 
   def render
+    @pdf.techbook_parse(@result)
     return @pdf.render
   end
 end
