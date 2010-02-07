@@ -28,14 +28,6 @@ class PlainTextFormatter
     @result += "\n"
   end
 
-  def start_document
-    @result += ""
-  end
-
-  def end_document
-    @result += ""
-  end
-
   def render 
     return @result
   end
@@ -69,21 +61,15 @@ class HtmlFormatter
     @result += "<br />\n"
   end
 
-  def start_document
-    @result += "<html>\n" +
+  def render
+    return "<html>\n" +
       "<head>\n" +
       "<link rel=\"stylesheet\" href=\"resume.css\" />\n" +
       "</head>\n" +
-      "<body>\n"
-  end
-
-  def end_document
-    @result += "</body>\n" +
+      "<body>\n" +
+      @result +
+      "</body>\n" +
       "</html>"
-  end
-
-  def render
-    return @result
   end
 end
 
@@ -116,12 +102,6 @@ class PdfFormatter
   def break_line()
     @result += ".pre\n"
     @result += "\n"
-  end
-
-  def start_document
-  end
-
-  def end_document
   end
 
   def render

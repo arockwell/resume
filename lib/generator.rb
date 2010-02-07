@@ -3,7 +3,6 @@ require 'json'
 
 class Generator
   def generate_output(resume, formatter)
-    formatter.start_document
     personal_info = resume['personal_info']
     formatter.para(personal_info['name'])
     formatter.para(personal_info['email']) 
@@ -50,7 +49,6 @@ class Generator
     formatter.heading("REFERENCES")
     references.each { |ref| formatter.para(ref) }
 
-    formatter.end_document
     return formatter.render
   end
 
