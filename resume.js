@@ -66,8 +66,8 @@
 		"degree": "BS in Computer Engineering; May 2004"
 	},
 	"references": [
-		"Daniel Westermann-Clark — Senior Web Developer — 352-871-8206",
-		"Kevin Hanson — Computer Support Manager — 352-273-6204",
-		"Mark Trammell — Former UF Web Administrator — mark@trammell.com"
+		"Daniel Westermann-Clark - Senior Web Developer - 352-871-8206",
+		"Kevin Hanson - Computer Support Manager - 352-273-6204",
+		"Mark Trammell - Former UF Web Administrator - mark@trammell.com"
 	]
 }
