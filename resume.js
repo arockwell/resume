@@ -25,7 +25,7 @@
 		},
 		{
 			"basic_info": "Web Developer, University of Florida, Web Administration, 2001-2004",
-			"description": "Design and implement websites using Perl, JSP and Java Servlets."
+			"description": "Design and implement websites using Perl, JSP, and Java Servlets."
 		},
 		{
 			"basic_info": "System Administrator, University of Florida, Information Technology Services, 2000-2001",
@@ -35,21 +35,21 @@
 	"skills": [
 		{
 			"skill": "Programming Languages",
-			"significant": "Java, Ruby and Javascript",
-			"some": "Perl, Python and PHP"
+			"significant": "Java, Ruby, and Javascript",
+			"some": "Perl, Python, and PHP"
 		},
 		{
 			"skill": "Programming Frameworks",
-			"significant": "Struts, Seam, Hibernate and jQuery",
+			"significant": "Struts, Seam, Hibernate, and jQuery",
 			"some": "Ruby on Rails"
 		},
 		{
 			"skill": "Web Technologies", 
-			"significant": "HTML, CSS and XML"
+			"significant": "HTML, CSS, and XML"
 		},
 		{
 			"skill": "Software Tools",
-			"significant": "Vim, Subversion, Git, Eclipse and Emacs"
+			"significant": "Vim, Subversion, Git, Eclipse, and Emacs"
 		},
 		{
 			"skill": "Databases",
@@ -58,7 +58,7 @@
 		},
 		{
 			"skill": "Operating Systems",
-			"significant": "Windows, Linux and Mac OS X"
+			"significant": "Windows, Linux, and Mac OS X"
 		}
 	],
 	"education": {
