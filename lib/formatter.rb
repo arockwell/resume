@@ -1,10 +1,18 @@
+require 'pdf/writer'
+
 class PlainTextFormatter
+  attr :result
+
+  def initialize
+    @result = ""
+  end
+
   def heading(string)
-    return string.upcase + "\n"
+    @result += string.upcase + "\n"
   end
 
   def para(string)
-    return string + "\n"
+    @result += string + "\n"
   end
 
   def list(strings) 
@@ -12,29 +20,39 @@ class PlainTextFormatter
     strings.each do |string|
       result += "  - " + string + "\n"
     end
-    return result
+    @result += result
   end
 
   def break_line()
-    return "\n"
+    @result += "\n"
   end
 
   def start_document
-    return ""
+    @result += ""
   end
 
   def end_document
-    return ""
+    @result += ""
+  end
+
+  def render 
+    return @result
   end
 end
 
 class HtmlFormatter
+  attr :result
+
+  def initialize
+    @result = ""
+  end
+
   def heading(string)
-    return "<h1>" + string.upcase + "</h1>\n"
+    @result += "<h1>" + string.upcase + "</h1>\n"
   end
 
   def para(string)
-    return "<p>" + string + "</p>\n"
+    @result += "<p>" + string + "</p>\n"
   end
 
   def list(strings)
@@ -43,15 +61,15 @@ class HtmlFormatter
       result += "<li>" + string + "</li>\n"
     end
     result += "</ul>\n"
-    return result
+    @result += result
   end
 
   def break_line()
-    return "<br />\n"
+    @result += "<br />\n"
   end
 
   def start_document
-    return "<html>\n" +
+    @result += "<html>\n" +
       "<head>\n" +
       "<link rel=\"stylesheet\" href=\"resume.css\" />\n" +
       "</head>\n" +
@@ -59,7 +77,11 @@ class HtmlFormatter
   end
 
   def end_document
-    return "</body>\n" +
+    @result += "</body>\n" +
       "</html>"
+  end
+
+  def render
+    return @result
   end
 end
