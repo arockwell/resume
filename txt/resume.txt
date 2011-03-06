@@ -3,6 +3,10 @@ arockwell@gmail.com
 352-281-6571
 
 EXPERIENCE
+Created visualization of the organizational hierarchy of UF, from semantic web data in VIVO
+Designed and implemented several open source utilities to extract and manage RDF data
+Managed installation and upgrades of VIVO (www.vivoweb.org)
+Automated server configuration wtih Ruby Chef
 Designed and implemented two internal web applications with over 100 users.
 Helped maintain legacy web applications on a large code base (>200 KLOC).
 Led migration of more than 20 web applications from Jetspeed Portal to JBoss Portal.
@@ -13,7 +17,10 @@ Helped develop the information architecture for the UF home page (www.ufl.edu).
 Helped design and implement previous version of the UF Campus Map.
 
 WORK HISTORY
-Web Developer, University of Florida, Department of Housing, 2008-current
+System Administrator, University of Florida, Marston Science Library, 2010-current
+Install and upgrade VIVO. Perform data maintenance.
+
+Web Developer, University of Florida, Department of Housing, 2008-2010
 Design and implement web sites for the Housing Portal (my.housing.ufl.edu).
 
 Database Administrator, University of Florida CNS, 2004-2008
@@ -22,28 +29,24 @@ Support, tune, and maintain DB2 on Linux, Windows, and AIX.
 Web Developer, University of Florida, Web Administration, 2001-2004
 Design and implement websites using Perl, JSP, and Java Servlets.
 
-System Administrator, University of Florida, Information Technology Services, 2000-2001
-Technical support, administration of Linux server.
-
 SKILLS
 Programming Languages
   - Significant experience with Java, Ruby, and Javascript.
-  - Some experience with Perl, Python, and PHP.
+  - Some experience with Perl and Python.
 Programming Frameworks
   - Significant experience with Struts, Seam, Hibernate, and jQuery.
   - Some experience with Ruby on Rails.
-Web Technologies: Significant experience with HTML, CSS, and XML.
-Software Tools: Significant experience with Vim, Subversion, Git, Eclipse, and Emacs.
-Databases
-  - Significant experience with DB2.
-  - Some experience with PostgreSQL and MySQL.
-Operating Systems: Significant experience with Windows, Linux, and Mac OS X.
+Web Technologies: Significant experience with HTML, CSS, XML, and RDF.
+Software Tools: Significant experience with Vim, Git, Subversion, and Eclipse.
+Databases: Significant experience with DB2 and MySQL.
+Data Querying Languages: Significant experience with SQL and SPARQL.
+Operating Systems: Significant experience with Linux, Mac OS X, and Windows.
 
 EDUCATION
 University of Florida, Gainesville, Florida
 BS in Computer Engineering; May 2004
 
 REFERENCES
+Valrie Davis - Agricultural Librarian - 352-273-2880
 Daniel Westermann-Clark - Senior Web Developer - 352-871-8206
 Kevin Hanson - Computer Support Manager - 352-273-6204
-Mark Trammell - Former UF Web Administrator - mark@trammell.com

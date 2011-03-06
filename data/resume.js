@@ -5,6 +5,10 @@
 		"phone": "352-281-6571"
 	},
 	"experience": [
+    "Created visualization of the organizational hierarchy of UF, from semantic web data in VIVO",
+    "Designed and implemented several open source utilities to extract and manage RDF data",
+    "Managed installation and upgrades of VIVO",
+    "Automated server configuration wtih Ruby Chef",
 		"Designed and implemented two internal web applications with over 100 users.",
 		"Helped maintain legacy web applications on a large code base (>200 KLOC).",
 		"Led migration of more than 20 web applications from Jetspeed Portal to JBoss Portal.",
@@ -15,8 +19,12 @@
 		"Helped design and implement previous version of the UF Campus Map."
 	],
 	"work_history": [
+    { 
+      "basic_info": "System Administrator, University of Florida, Marston Science Library, 2010-current",
+      "description": "Install and upgrade VIVO. Perform data maintenance."
+    },
 		{ 
-			"basic_info": "Web Developer, University of Florida, Department of Housing, 2008-current",
+			"basic_info": "Web Developer, University of Florida, Department of Housing, 2008-2010",
 			"description": "Design and implement web sites for the Housing Portal (my.housing.ufl.edu)."
 		},
 		{
@@ -26,39 +34,38 @@
 		{
 			"basic_info": "Web Developer, University of Florida, Web Administration, 2001-2004",
 			"description": "Design and implement websites using Perl, JSP, and Java Servlets."
-		},
-		{
-			"basic_info": "System Administrator, University of Florida, Information Technology Services, 2000-2001",
-			"description": "Technical support, administration of Linux server."
 		}
 	],
 	"skills": [
 		{
 			"skill": "Programming Languages",
 			"significant": "Java, Ruby, and Javascript",
-			"some": "Perl, Python, and PHP"
+			"some": "Bash, Perl, Python, and Objective-C"
 		},
 		{
 			"skill": "Programming Frameworks",
 			"significant": "Struts, Seam, Hibernate, and jQuery",
-			"some": "Ruby on Rails"
+			"some": "Ruby on Rails, RSpec, and TestNG"
 		},
 		{
 			"skill": "Web Technologies", 
-			"significant": "HTML, CSS, and XML"
+			"significant": "HTML, CSS, XML, and RDF"
 		},
 		{
 			"skill": "Software Tools",
-			"significant": "Vim, Subversion, Git, Eclipse, and Emacs"
+			"significant": "Vim, Git, Subversion, and Eclipse"
 		},
 		{
 			"skill": "Databases",
-			"significant": "DB2",
-			"some": "PostgreSQL and MySQL"
+			"significant": "DB2 and MySQL"
 		},
+    { 
+      "skill": "Data Querying Languages",
+      "significant": "SQL and SPARQL"
+    },
 		{
 			"skill": "Operating Systems",
-			"significant": "Windows, Linux, and Mac OS X"
+			"significant": "Linux, Mac OS X, and Windows"
 		}
 	],
 	"education": {
@@ -66,8 +73,8 @@
 		"degree": "BS in Computer Engineering; May 2004"
 	},
 	"references": [
+    "Valrie Davis - Agricultural Librarian - 352-273-2880",
 		"Daniel Westermann-Clark - Senior Web Developer - 352-871-8206",
-		"Kevin Hanson - Computer Support Manager - 352-273-6204",
-		"Mark Trammell - Former UF Web Administrator - mark@trammell.com"
+		"Kevin Hanson - Computer Support Manager - 352-273-6204"
 	]
 }
