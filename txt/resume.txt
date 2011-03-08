@@ -3,10 +3,10 @@ arockwell@gmail.com
 352-281-6571
 
 EXPERIENCE
-Created visualization of the organizational hierarchy of UF, from semantic web data in VIVO
-Designed and implemented several open source utilities to extract and manage RDF data
-Managed installation and upgrades of VIVO (www.vivoweb.org)
-Automated server configuration wtih Ruby Chef
+Created visualization of the organizational hierarchy of UF, from semantic web data in VIVO.
+Designed and implemented several open source utilities to extract and manage RDF data.
+Managed installation and upgrades of VIVO.
+Automated server configuration wtih Ruby Chef.
 Designed and implemented two internal web applications with over 100 users.
 Helped maintain legacy web applications on a large code base (>200 KLOC).
 Led migration of more than 20 web applications from Jetspeed Portal to JBoss Portal.
@@ -18,7 +18,7 @@ Helped design and implement previous version of the UF Campus Map.
 
 WORK HISTORY
 System Administrator, University of Florida, Marston Science Library, 2010-current
-Install and upgrade VIVO. Perform data maintenance.
+Design and implement data maintenance scripts and manage installation of VIVO (vivo.ufl.edu).
 
 Web Developer, University of Florida, Department of Housing, 2008-2010
 Design and implement web sites for the Housing Portal (my.housing.ufl.edu).
@@ -32,10 +32,10 @@ Design and implement websites using Perl, JSP, and Java Servlets.
 SKILLS
 Programming Languages
   - Significant experience with Java, Ruby, and Javascript.
-  - Some experience with Perl and Python.
+  - Some experience with Bash, Perl, Python, and Objective-C.
 Programming Frameworks
   - Significant experience with Struts, Seam, Hibernate, and jQuery.
-  - Some experience with Ruby on Rails.
+  - Some experience with Ruby on Rails, RSpec, and TestNG.
 Web Technologies: Significant experience with HTML, CSS, XML, and RDF.
 Software Tools: Significant experience with Vim, Git, Subversion, and Eclipse.
 Databases: Significant experience with DB2 and MySQL.

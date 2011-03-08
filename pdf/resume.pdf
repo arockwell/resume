@@ -28,7 +28,7 @@ endobj
 endobj
 5 0 obj
 <<
-/CreationDate (D:201103062140)
+/CreationDate (D:201103080541)
 /Creator (rake)
 /Producer (PDF::Writer for Ruby)
 >>
@@ -41,7 +41,7 @@ endobj
 endobj
 7 0 obj
 <<
-/Length 6366 >>
+/Length 6433 >>
 stream
 
 0.000 0.000 0.000 rg
@@ -56,13 +56,13 @@ BT 36.000 702.432 Td /F1 12.0 Tf 0 Tr (
 ) Tj ET
 BT 36.000 689.040 Td /F2 12.0 Tf 0 Tr (EXPERIENCE) Tj /F1 12.0 Tf 0 Tr (
 ) Tj ET
-BT 36.000 675.648 Td /F1 12.0 Tf 0 Tr (Created visualization of the organizational hierarchy of UF, from semantic web data in VIVO
+BT 36.000 675.648 Td /F1 12.0 Tf 0 Tr (Created visualization of the organizational hierarchy of UF, from semantic web data in VIVO.
 ) Tj ET
-BT 36.000 662.256 Td /F1 12.0 Tf 0 Tr (Designed and implemented several open source utilities to extract and manage RDF data
+BT 36.000 662.256 Td /F1 12.0 Tf 0 Tr (Designed and implemented several open source utilities to extract and manage RDF data.
 ) Tj ET
-BT 36.000 648.864 Td /F1 12.0 Tf 0 Tr (Managed installation and upgrades of VIVO \(www.vivoweb.org\)
+BT 36.000 648.864 Td /F1 12.0 Tf 0 Tr (Managed installation and upgrades of VIVO.
 ) Tj ET
-BT 36.000 635.472 Td /F1 12.0 Tf 0 Tr (Automated server configuration wtih Ruby Chef
+BT 36.000 635.472 Td /F1 12.0 Tf 0 Tr (Automated server configuration wtih Ruby Chef.
 ) Tj ET
 BT 36.000 622.080 Td /F1 12.0 Tf 0 Tr (Designed and implemented two internal web applications with over 100 users.
 ) Tj ET
@@ -86,7 +86,7 @@ BT 36.000 501.552 Td /F2 12.0 Tf 0 Tr (WORK HISTORY) Tj /F1 12.0 Tf 0 Tr (
 ) Tj ET
 BT 36.000 488.160 Td /F1 12.0 Tf 0 Tr (System Administrator, University of Florida, Marston Science Library, 2010-current
 ) Tj ET
-BT 36.000 474.768 Td /F1 12.0 Tf 0 Tr (Install and upgrade VIVO. Perform data maintenance.
+BT 36.000 474.768 Td /F1 12.0 Tf 0 Tr (Design and implement data maintenance scripts and manage installation of VIVO \(vivo.ufl.edu\).
 ) Tj ET
 BT 36.000 461.376 Td /F1 12.0 Tf 0 Tr (
 ) Tj ET
@@ -136,7 +136,7 @@ q
 45.768 290.027 m S
 1 w
 Q
-BT 51.000 287.280 Td /F1 12.0 Tf 0 Tr (Some experience with Perl and Python.
+BT 51.000 287.280 Td /F1 12.0 Tf 0 Tr (Some experience with Bash, Perl, Python, and Objective-C.
 ) Tj ET
 BT 36.000 273.888 Td 0.000 Tw /F1 12.0 Tf 0 Tr (Programming Frameworks
 ) Tj ET
@@ -164,7 +164,7 @@ q
 45.768 249.851 m S
 1 w
 Q
-BT 51.000 247.104 Td /F1 12.0 Tf 0 Tr (Some experience with Ruby on Rails.
+BT 51.000 247.104 Td /F1 12.0 Tf 0 Tr (Some experience with Ruby on Rails, RSpec, and TestNG.
 ) Tj ET
 BT 36.000 233.712 Td 0.000 Tw /F1 12.0 Tf 0 Tr (Web Technologies: Significant experience with HTML, CSS, XML, and RDF.
 ) Tj ET
@@ -229,9 +229,9 @@ xref
 0000000302 00000 n 
 0000000403 00000 n 
 0000000466 00000 n 
-0000006885 00000 n 
-0000006994 00000 n 
-0000007063 00000 n 
+0000006952 00000 n 
+0000007061 00000 n 
+0000007130 00000 n 
 
 trailer
   << /Size 11
@@ -239,5 +239,5 @@ trailer
  /Info 5 0 R
   >>
 startxref
-7161
+7228
 %%EOF

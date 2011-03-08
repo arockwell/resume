@@ -5,10 +5,10 @@
 		"phone": "352-281-6571"
 	},
 	"experience": [
-    "Created visualization of the organizational hierarchy of UF, from semantic web data in VIVO",
-    "Designed and implemented several open source utilities to extract and manage RDF data",
-    "Managed installation and upgrades of VIVO",
-    "Automated server configuration wtih Ruby Chef",
+    "Created visualization of the organizational hierarchy of UF, from semantic web data in VIVO.",
+    "Designed and implemented several open source utilities to extract and manage RDF data.",
+    "Managed installation and upgrades of VIVO.",
+    "Automated server configuration wtih Ruby Chef.",
 		"Designed and implemented two internal web applications with over 100 users.",
 		"Helped maintain legacy web applications on a large code base (>200 KLOC).",
 		"Led migration of more than 20 web applications from Jetspeed Portal to JBoss Portal.",
@@ -21,7 +21,7 @@
 	"work_history": [
     { 
       "basic_info": "System Administrator, University of Florida, Marston Science Library, 2010-current",
-      "description": "Install and upgrade VIVO. Perform data maintenance."
+      "description": "Design and implement data maintenance scripts and manage installation of VIVO (vivo.ufl.edu)."
     },
 		{ 
 			"basic_info": "Web Developer, University of Florida, Department of Housing, 2008-2010",
