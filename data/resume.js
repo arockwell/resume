@@ -8,7 +8,7 @@
     "Created visualization of the organizational hierarchy of UF, from semantic web data in VIVO.",
     "Designed and implemented several open source utilities to extract and manage RDF data.",
     "Managed installation and upgrades of VIVO.",
-    "Automated server configuration wtih Ruby Chef.",
+    "Automated server configuration with Ruby Chef.",
 		"Designed and implemented two internal web applications with over 100 users.",
 		"Helped maintain legacy web applications on a large code base (>200 KLOC).",
 		"Led migration of more than 20 web applications from Jetspeed Portal to JBoss Portal.",
@@ -74,7 +74,7 @@
 	},
 	"references": [
     "Valrie Davis - Agricultural Librarian - 352-273-2880",
-		"Daniel Westermann-Clark - Senior Web Developer - 352-871-8206",
-		"Kevin Hanson - Computer Support Manager - 352-273-6204"
+    "Brandon Vega - Business Applications Manager - 352-392-2171",
+		"Daniel Westermann-Clark - Senior Web Developer - 352-871-8206"
 	]
 }

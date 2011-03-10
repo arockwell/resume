@@ -28,7 +28,7 @@ endobj
 endobj
 5 0 obj
 <<
-/CreationDate (D:201103080541)
+/CreationDate (D:201103100547)
 /Creator (rake)
 /Producer (PDF::Writer for Ruby)
 >>
@@ -41,7 +41,7 @@ endobj
 endobj
 7 0 obj
 <<
-/Length 6433 >>
+/Length 6438 >>
 stream
 
 0.000 0.000 0.000 rg
@@ -62,7 +62,7 @@ BT 36.000 662.256 Td /F1 12.0 Tf 0 Tr (Designed and implemented several open sou
 ) Tj ET
 BT 36.000 648.864 Td /F1 12.0 Tf 0 Tr (Managed installation and upgrades of VIVO.
 ) Tj ET
-BT 36.000 635.472 Td /F1 12.0 Tf 0 Tr (Automated server configuration wtih Ruby Chef.
+BT 36.000 635.472 Td /F1 12.0 Tf 0 Tr (Automated server configuration with Ruby Chef.
 ) Tj ET
 BT 36.000 622.080 Td /F1 12.0 Tf 0 Tr (Designed and implemented two internal web applications with over 100 users.
 ) Tj ET
@@ -190,9 +190,9 @@ BT 36.000 99.792 Td 0.000 Tw /F2 12.0 Tf 0 Tr (REFERENCES) Tj /F1 12.0 Tf 0 Tr (
 ) Tj ET
 BT 36.000 86.400 Td 0.000 Tw /F1 12.0 Tf 0 Tr (Valrie Davis - Agricultural Librarian - 352-273-2880
 ) Tj ET
-BT 36.000 73.008 Td 0.000 Tw /F1 12.0 Tf 0 Tr (Daniel Westermann-Clark - Senior Web Developer - 352-871-8206
+BT 36.000 73.008 Td 0.000 Tw /F1 12.0 Tf 0 Tr (Brandon Vega - Business Applications Manager - 352-392-2171
 ) Tj ET
-BT 36.000 59.616 Td 0.000 Tw /F1 12.0 Tf 0 Tr (Kevin Hanson - Computer Support Manager - 352-273-6204
+BT 36.000 59.616 Td 0.000 Tw /F1 12.0 Tf 0 Tr (Daniel Westermann-Clark - Senior Web Developer - 352-871-8206
 ) Tj ET
 endstream
 endobj
@@ -229,9 +229,9 @@ xref
 0000000302 00000 n 
 0000000403 00000 n 
 0000000466 00000 n 
-0000006952 00000 n 
-0000007061 00000 n 
-0000007130 00000 n 
+0000006957 00000 n 
+0000007066 00000 n 
+0000007135 00000 n 
 
 trailer
   << /Size 11
@@ -239,5 +239,5 @@ trailer
  /Info 5 0 R
   >>
 startxref
-7228
+7233
 %%EOF
