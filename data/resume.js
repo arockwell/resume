@@ -57,7 +57,8 @@
 		},
 		{
 			"skill": "Databases",
-			"significant": "DB2 and MySQL"
+			"significant": "DB2 and MySQL",
+      "some": "Redis"
 		},
     { 
       "skill": "Data Querying Languages",
@@ -73,7 +74,7 @@
 		"degree": "BS in Computer Engineering; May 2004"
 	},
 	"references": [
-    "Valrie Davis - Agricultural Librarian - 352-273-2880",
+    "Sara Russell Gonzalez - Science Librarian - 352-871-3992",
     "Brandon Vega - Business Applications Manager - 352-392-2171",
 		"Daniel Westermann-Clark - Senior Web Developer - 352-871-8206"
 	]
