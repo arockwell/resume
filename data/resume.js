@@ -17,7 +17,6 @@
 		"Designed and implemented an automated database growth size tracking system.",
 		"Helped develop the information architecture for the UF home page (www.ufl.edu).",
 		"Helped design and implement previous version of the UF Campus Map."
-	],
 	"work_history": [
     { 
       "basic_info": "System Administrator, University of Florida, Marston Science Library, 2010-current",
