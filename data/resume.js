@@ -15,8 +15,8 @@
 		"Implemented automated software testing to improve development time using TestNG.",
 		"Developed an automated backup solution for DB2 using TSM to handle 40 GB of data.",
 		"Designed and implemented an automated database growth size tracking system.",
-		"Helped develop the information architecture for the UF home page (www.ufl.edu).",
-		"Helped design and implement previous version of the UF Campus Map."
+		"Helped develop the information architecture for the UF home page (www.ufl.edu)."
+     ],
 	"work_history": [
     { 
       "basic_info": "System Administrator, University of Florida, Marston Science Library, 2010-current",
