@@ -1,5 +1,4 @@
-require 'pdf/writer'
-require 'pdf/techbook'
+require 'prawn'
 
 class PlainTextFormatter
   attr :result
@@ -28,8 +27,8 @@ class PlainTextFormatter
     @result += "\n"
   end
 
-  def render 
-    return @result
+  def render(filename) 
+    File.open(filename, "w") { |f| f.write(@result) }
   end
 end
 
@@ -61,8 +60,8 @@ class HtmlFormatter
     @result += "<br />\n"
   end
 
-  def render
-    return "<html>\n" +
+  def render(filename)
+    @result = "<html>\n" +
       "<head>\n" +
       "<link rel=\"stylesheet\" href=\"resume.css\" />\n" +
       "</head>\n" +
@@ -70,6 +69,7 @@ class HtmlFormatter
       @result +
       "</body>\n" +
       "</html>"
+    File.open(filename, "w") { |f| f.write(@result) }
   end
 end
 
@@ -79,33 +79,29 @@ class PdfFormatter
 
   def initialize
     @result = ""
-    @pdf = PDF::TechBook.new
-    @pdf.select_font "Times-Roman"
+    @pdf = Prawn::Document.new
+    @pdf.font "Times-Roman"
   end
 
   def heading(string)
-    @result += ".pre\n"
-    @result += "<b>" + string.upcase + "</b>\n"
+    @pdf.text "#{string.upcase}\n", :style => :bold
   end
 
   def para(string)
-    @result += ".pre\n"
-    @result += string + "\n"
+    @pdf.text "#{string}\n"
   end
 
   def list(strings)
     strings.each do |string|
-      @result += "     <C:bullet/>" +string + "\n"
+      @pdf.text "- #{string}\n", :indent_paragraphs => 12
     end
   end
 
   def break_line()
-    @result += ".pre\n"
-    @result += "\n"
+    @pdf.text "\n"
   end
 
-  def render
-    @pdf.techbook_parse(@result)
-    return @pdf.render
+  def render(filename)
+    return @pdf.render_file(filename)
   end
 end

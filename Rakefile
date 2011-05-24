@@ -1,5 +1,5 @@
-require 'lib/formatter'
-require 'lib/generator'
+require_relative 'lib/formatter'
+require_relative 'lib/generator'
 
 JSON_RESUME = "data/resume.js"
 

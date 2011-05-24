@@ -2,7 +2,7 @@ require 'rubygems'
 require 'json'
 
 class Generator
-  def generate_output(resume, formatter)
+  def generate_resume(resume, filename, formatter)
     personal_info = resume['personal_info']
     formatter.para(personal_info['name'])
     formatter.para(personal_info['email']) 
@@ -49,12 +49,7 @@ class Generator
     formatter.heading("REFERENCES")
     references.each { |ref| formatter.para(ref) }
 
-    return formatter.render
+    return formatter.render(filename)
   end
 
-  def generate_resume(resume_data, location, formatter)
-    resume = generate_output(resume_data, formatter)
-    file = File.new(location, "w")
-    file.puts(resume)
-  end
 end
