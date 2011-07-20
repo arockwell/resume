@@ -1,3 +1,4 @@
+# encoding: utf-8
 require 'prawn'
 
 class PlainTextFormatter
@@ -27,8 +28,8 @@ class PlainTextFormatter
     @result += "\n"
   end
 
-  def render(filename) 
-    File.open(filename, "w") { |f| f.write(@result) }
+  def render 
+    return @result
   end
 end
 
@@ -60,8 +61,8 @@ class HtmlFormatter
     @result += "<br />\n"
   end
 
-  def render(filename)
-    @result = "<html>\n" +
+  def render
+    return "<html>\n" +
       "<head>\n" +
       "<link rel=\"stylesheet\" href=\"resume.css\" />\n" +
       "</head>\n" +
@@ -69,7 +70,6 @@ class HtmlFormatter
       @result +
       "</body>\n" +
       "</html>"
-    File.open(filename, "w") { |f| f.write(@result) }
   end
 end
 
@@ -80,7 +80,6 @@ class PdfFormatter
   def initialize
     @result = ""
     @pdf = Prawn::Document.new
-    @pdf.font "Times-Roman"
   end
 
   def heading(string)
@@ -88,12 +87,17 @@ class PdfFormatter
   end
 
   def para(string)
-    @pdf.text "#{string}\n"
+    @pdf.text string + "\n"
   end
 
   def list(strings)
     strings.each do |string|
-      @pdf.text "- #{string}\n", :indent_paragraphs => 12
+      @pdf.indent(10) do
+        @pdf.float { @pdf.text "•" }
+        @pdf.indent(10) do
+          @pdf.text "#{string}\n"
+        end
+      end
     end
   end
 
