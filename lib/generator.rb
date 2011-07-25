@@ -9,10 +9,17 @@ class Generator
     formatter.para(personal_info['phone'])
     formatter.break_line
 
-    experience = resume['experience']
-    formatter.heading("EXPERIENCE")
-    experience.each { |exp| formatter.para(exp) }
-    formatter.break_line 
+    formatter.heading(resume['heading'])
+    formatter.para(resume['overview'])
+    formatter.break_line
+
+    formatter.heading("SKILLS")
+    skills = resume['skills']
+    skills.each do |skill|
+      skill_line = "#{skill['name']}: #{skill['text']}"
+      formatter.para(skill_line)
+    end
+    formatter.break_line
 
     formatter.heading("WORK HISTORY")
     work_history = resume['work_history']
@@ -20,23 +27,13 @@ class Generator
       formatter.para(job["basic_info"])
       formatter.para(job["description"])
       formatter.break_line
+      accomplishments = job['accomplishments']
+      accomplishments.each do |accomplishment|
+        formatter.para(accomplishment)
+      end
+      formatter.break_line
     end
 
-    formatter.heading("SKILLS")
-    skills = resume['skills']
-    skills.each do |skill|
-      if skill.has_key?('some')
-        formatter.para(skill['skill'])
-        sig = "Significant experience with " + skill['significant'] + "."
-        some = "Some experience with " + skill['some'] + "."
-        formatter.list([sig, some])
-      else
-        sig = skill['skill'] + ": "
-        sig += "Significant experience with " + skill['significant']  + "."
-        formatter.para(sig)
-      end
-    end
-    formatter.break_line
 
     education = resume['education']
     formatter.heading("EDUCATION")
