@@ -90,6 +90,22 @@ class PdfFormatter
     @pdf.text string + "\n"
   end
 
+  def text(string)
+    @pdf.text string
+  end
+
+  def bold_text(string)
+    @pdf.text string, :style => :bold
+  end
+
+  def center(string)
+    @pdf.text "#{string}\n", :align => :center
+  end
+
+  def center_header(string)
+    @pdf.text "#{string.upcase}\n", :align => :center, :style => :bold, :size => 18
+  end
+
   def list(strings)
     strings.each do |string|
       @pdf.indent(10) do
@@ -100,9 +116,24 @@ class PdfFormatter
       end
     end
   end
+  
+  def table(data)
+    @pdf.table data do
+      cells.borders = []
+      cells.padding = 2
+      rows(0..data.size).columns(0).borders = [:top, :left, :right]
+      rows(0).columns(1..2).borders = [:top, :right]
+      rows(1..data.size-2).columns(0..2).borders = [:left, :right]
+      rows(data.size-1).columns(0..2).borders = [:left, :right, :bottom]
+    end
+  end
 
   def break_line()
     @pdf.text "\n"
+  end
+
+  def hr
+    @pdf.stroke_horizontal_rule
   end
 
   def render(filename)
