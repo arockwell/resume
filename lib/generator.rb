@@ -41,11 +41,6 @@ class Generator
     formatter.para(education['degree'])
     formatter.break_line
 
-
-    references = resume['references']
-    formatter.heading("REFERENCES")
-    references.each { |ref| formatter.para(ref) }
-
     return formatter.render(filename)
   end
 
