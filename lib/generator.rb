@@ -1,12 +1,12 @@
+# encoding: utf-8
 require 'rubygems'
 require 'json'
 
 class Generator
   def generate_resume(resume, filename, formatter)
-    personal_info = resume['personal_info']
-    formatter.para(personal_info['name'])
-    formatter.para(personal_info['email']) 
-    formatter.para(personal_info['phone'])
+    formatter.center_header(resume['name'])
+    info_text = "#{resume['email']} • #{resume['phone']}"
+    formatter.center(info_text)
     formatter.break_line
 
     formatter.heading(resume['heading'])
