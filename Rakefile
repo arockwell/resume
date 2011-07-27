@@ -23,13 +23,6 @@ task :readme do
   generator.generate_resume(resume_data, "README", PlainTextFormatter.new)
 end
 
-desc "Generate resume in html format"
-task :html do
-  resume_data = load_resume
-  generator = Generator.new
-  generator.generate_resume(resume_data, "html/resume.html", HtmlFormatter.new)
-end
-
 desc "Generate resume in pdf format"
 task :pdf do
   resume_data = load_resume

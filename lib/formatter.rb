@@ -18,7 +18,7 @@ class PlainTextFormatter
   end
 
   def personal_info(email, phone, website)
-    @result += "#{email}\n#{phone}\n#{website}\n"
+    @result += "#{email}\n#{phone}\n#{website}\n\n"
   end
 
   def overview(text)
@@ -29,6 +29,7 @@ class PlainTextFormatter
     skills.each do |skill|
       @result += "#{skill[0]}: #{skill[1]}\n"
     end
+    @result += "\n"
   end
 
   def work_history(work_history)
@@ -38,6 +39,7 @@ class PlainTextFormatter
       job['accomplishments'].each do |accomplishment|
         @result += "  * #{accomplishment}\n"
       end
+      @result += "\n"
     end
   end
 
@@ -53,7 +55,7 @@ class PlainTextFormatter
   def list(strings) 
     result = ""
     strings.each do |string|
-      result += "  - " + string + "\n"
+      result += "  * " + string + "\n"
     end
     @result += result
   end
