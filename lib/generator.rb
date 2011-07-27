@@ -15,14 +15,14 @@ class Generator
     formatter.para(resume['overview'])
     formatter.break_line
 
-    formatter.heading("SKILLS")
+    formatter.heading("Skills")
     formatter.hr
     formatter.break_line
     skills = resume['skills']
     formatter.table(skills)
     formatter.break_line
 
-    formatter.heading("WORK HISTORY")
+    formatter.heading("Work History")
     formatter.hr
     formatter.break_line
     work_history = resume['work_history']
@@ -34,14 +34,14 @@ class Generator
     end
 
     portfolio = resume['portfolio']
-    formatter.heading("PORTFOLIO")
+    formatter.heading("Portfolio")
     formatter.hr
     formatter.break_line
     formatter.list(resume['portfolio'])
     formatter.break_line
 
     education = resume['education']
-    formatter.heading("EDUCATION")
+    formatter.heading("Education")
     formatter.hr
     formatter.break_line
     formatter.para(education['location'])
