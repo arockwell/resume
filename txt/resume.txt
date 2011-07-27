@@ -1,53 +1,45 @@
 Alex Rockwell
 arockwell@gmail.com
-352-281-6571
+352.281.6571
+http://alexrockwell.org
+Full-stack Programmer and DevOps Engineer
 
-EXPERIENCE
-Created visualization of the organizational hierarchy of UF, from semantic web data in VIVO.
-Designed and implemented several open source utilities to extract and manage RDF data.
-Managed installation and upgrades of VIVO.
-Automated server configuration with Ruby Chef.
-Designed and implemented two internal web applications with over 100 users.
-Helped maintain legacy web applications on a large code base (>200 KLOC).
-Led migration of more than 20 web applications from Jetspeed Portal to JBoss Portal.
-Implemented automated software testing to improve development time using TestNG.
-Developed an automated backup solution for DB2 using TSM to handle 40 GB of data.
-Designed and implemented an automated database growth size tracking system.
-Helped develop the information architecture for the UF home page (www.ufl.edu).
+Experience in DevOps, database design, application development, data analysis, and UX design.
 
-WORK HISTORY
-System Administrator, University of Florida, Marston Science Library, 2010-current
-Design and implement data maintenance scripts and manage installation of VIVO (vivo.ufl.edu).
+Skills
 
-Web Developer, University of Florida, Department of Housing, 2008-2010
-Design and implement web sites for the Housing Portal (my.housing.ufl.edu).
+Programming Languages: Ruby, Javascript, Bash, Java, and Python
+Web Development: HTML5, CSS, Rails, jQuery, XML, JSON, and RDF
+Software Tools: Vim, Git, Subversion, and Eclipse
+Databases: MySQL, DB2 and Redis
+Data Analysis: SQL and SPARQL
+Operating Systems: Linux, Mac OS X, and Windows
+Work History
 
-Database Administrator, University of Florida CNS, 2004-2008
-Support, tune, and maintain DB2 on Linux, Windows, and AIX.
+System Administrator
+University of Florida, Marston Science Library, 2010-current
+  * Created visualization of the organizational hierarchy of UF, from semantic web data in VIVO.
+  * Designed and implemented several open source utilities to extract and manage RDF data.
+  * Managed installation and upgrades of VIVO.
+  * Automated server configuration and deployment with Ruby Chef.
+Web Developer
+University of Florida, Department of Housing, 2008-2010
+  * Designed and implemented two internal web applications with over 100 users.
+  * Helped maintain legacy web applications on a large code base (>200 KLOC).
+  * Led migration of more than 20 web applications from Jetspeed Portal to JBoss Portal.
+  * Implemented automated software testing to improve development time using TestNG.
+Database Administrator
+University of Florida CNS, 2004-2008
+  * Developed an automated backup solution for DB2 using TSM to handle 40 GB of data.
+  * Designed and implemented an automated database growth size tracking system.
+Portfolio
 
-Web Developer, University of Florida, Web Administration, 2001-2004
-Design and implement websites using Perl, JSP, and Java Servlets.
+  - Visualization of UF's org structure using data from VIVO: http://github.com/arockwell/vivo_org_chart
+  - Program to generate this resume in text, html, and pdf format: http://github.com/arockwell/resume
+  - Programming blog: http://alexrockwell.org.
+  - Web design example: http://nodetracker.com (app is still in prototype stage)
 
-SKILLS
-Programming Languages
-  - Significant experience with Java, Ruby, and Javascript.
-  - Some experience with Bash, Perl, Python, and Objective-C.
-Programming Frameworks
-  - Significant experience with Struts, Seam, Hibernate, and jQuery.
-  - Some experience with Ruby on Rails, RSpec, and TestNG.
-Web Technologies: Significant experience with HTML, CSS, XML, and RDF.
-Software Tools: Significant experience with Vim, Git, Subversion, and Eclipse.
-Databases
-  - Significant experience with DB2 and MySQL.
-  - Some experience with Redis.
-Data Querying Languages: Significant experience with SQL and SPARQL.
-Operating Systems: Significant experience with Linux, Mac OS X, and Windows.
+Education
 
-EDUCATION
 University of Florida, Gainesville, Florida
 BS in Computer Engineering; May 2004
-
-REFERENCES
-Sara Russell Gonzalez - Science Librarian - 352-871-3992
-Brandon Vega - Business Applications Manager - 352-392-2171
-Daniel Westermann-Clark - Senior Web Developer - 352-871-8206

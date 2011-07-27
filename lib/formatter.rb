@@ -1,4 +1,5 @@
 # encoding: utf-8
+require 'rubygems'
 require 'prawn'
 
 class PlainTextFormatter
@@ -9,7 +10,40 @@ class PlainTextFormatter
   end
 
   def heading(string)
-    @result += string.upcase + "\n"
+    @result += string + "\n\n"
+  end
+
+  def center_header(text)
+    @result += "#{text}\n"
+  end
+
+  def personal_info(email, phone, website)
+    @result += "#{email}\n#{phone}\n#{website}\n"
+  end
+
+  def overview(text)
+    @result += "#{text}\n\n"
+  end
+
+  def skills(skills)
+    skills.each do |skill|
+      @result += "#{skill[0]}: #{skill[1]}\n"
+    end
+  end
+
+  def work_history(work_history)
+    work_history.each do |job|
+      @result += "#{job['title']}\n"
+      @result += "#{job['location']}, #{job['dates']}\n"
+      job['accomplishments'].each do |accomplishment|
+        @result += "  * #{accomplishment}\n"
+      end
+    end
+  end
+
+  def education(location, degree)
+    @result += "#{location}\n"
+    @result += "#{degree}\n"
   end
 
   def para(string)
@@ -28,48 +62,8 @@ class PlainTextFormatter
     @result += "\n"
   end
 
-  def render 
-    return @result
-  end
-end
-
-class HtmlFormatter
-  attr :result
-
-  def initialize
-    @result = ""
-  end
-
-  def heading(string)
-    @result += "<h1>" + string.upcase + "</h1>\n"
-  end
-
-  def para(string)
-    @result += "<p>" + string + "</p>\n"
-  end
-
-  def list(strings)
-    result = "<ul>\n"
-    strings.each do |string|
-      result += "<li>" + string + "</li>\n"
-    end
-    result += "</ul>\n"
-    @result += result
-  end
-
-  def break_line()
-    @result += "<br />\n"
-  end
-
-  def render
-    return "<html>\n" +
-      "<head>\n" +
-      "<link rel=\"stylesheet\" href=\"resume.css\" />\n" +
-      "</head>\n" +
-      "<body>\n" +
-      @result +
-      "</body>\n" +
-      "</html>"
+  def render(filename)
+    File.open(filename, 'w') {|f| f.write(@result) }
   end
 end
 
@@ -83,11 +77,47 @@ class PdfFormatter
   end
 
   def heading(string)
-    @pdf.text "#{string.upcase}\n", :style => :bold
+    @pdf.text "#{string}\n", :style => :bold
+    @pdf.stroke_horizontal_rule
+    @pdf.text "\n"
   end
 
-  def para(string)
-    @pdf.text string + "\n"
+  def personal_info(email, phone, website)
+    @pdf.text "#{email} • #{phone} • #{website}\n\n", :align => :center
+  end
+
+  def overview(string)
+    @pdf.text string + "\n\n"
+  end
+
+  # Draw a table with borders around the outside and between the two columns.
+  def skills(skills)
+    @pdf.table skills do
+      cells.borders = []
+      cells.padding = 2
+      rows(0..skills.size).columns(0).borders = [:top, :left, :right]
+      rows(0).columns(1..2).borders = [:top, :right]
+      rows(1..skills.size-2).columns(0).borders = [:left, :right]
+      rows(1..skills.size-2).columns(1..2).borders = [:right]
+      rows(skills.size-1).columns(1..2).borders = [:right, :bottom]
+      rows(skills.size-1).columns(0).borders = [:left, :right, :bottom]
+    end
+    @pdf.text "\n"
+  end
+
+  def work_history(jobs)
+    jobs.each do |job|
+      @pdf.text job['title'], :style => :bold
+      @pdf.text("#{job['location']}, #{job['dates']}")
+      list(job['accomplishments'])
+      @pdf.text "\n"
+    end
+
+  end
+
+  def education(location, degree)
+    @pdf.text "#{location}\n"
+    @pdf.text "#{degree}\n"
   end
 
   def text(string)
@@ -117,17 +147,6 @@ class PdfFormatter
     end
   end
   
-  def table(data)
-    @pdf.table data do
-      cells.borders = []
-      cells.padding = 2
-      rows(0..data.size).columns(0).borders = [:top, :left, :right]
-      rows(0).columns(1..2).borders = [:top, :right]
-      rows(1..data.size-2).columns(0..2).borders = [:left, :right]
-      rows(data.size-1).columns(0..2).borders = [:left, :right, :bottom]
-    end
-  end
-
   def break_line()
     @pdf.text "\n"
   end

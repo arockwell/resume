@@ -1,5 +1,5 @@
-require_relative 'lib/formatter'
-require_relative 'lib/generator'
+require 'lib/formatter'
+require 'lib/generator'
 require 'yaml'
 
 RESUME = "data/resume.yml"
