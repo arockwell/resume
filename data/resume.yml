@@ -2,17 +2,16 @@ name: Alex Rockwell
 email: arockwell@gmail.com
 phone: 352.281.6571
 website: http://alexrockwell.org
-heading: Full-stack Programmer and DevOps Engineer
-overview: Experience in DevOps, database design, application development, data analysis, and UX design.
+heading: Full-stack Web Developer and System Administrator
+overview: Experience in system administration, database design, data analysis, application development, and web design.
 work_history:
   - title: System Administrator 
     location: University of Florida, Marston Science Library 
     dates: 2010-current
     accomplishments: 
-      - Created visualization of the organizational hierarchy of UF, from semantic web data in VIVO.
-      - Designed and implemented several open source utilities to extract and manage RDF data.
-      - Managed installation and upgrades of VIVO.
+      - Designed and implemented open source utilities to import and analyze data for VIVO.
       - Automated server configuration and deployment with Ruby Chef.
+      - Managed installation and upgrades of VIVO.
 
   - title: Web Developer 
     location: University of Florida, Department of Housing 
@@ -45,7 +44,7 @@ skills:
 
   -
     - Databases
-    - MySQL, DB2 and Redis
+    - MySQL, DB2 and, Redis
 
   -
     - Data Analysis
@@ -59,10 +58,10 @@ education:
   location: University of Florida, Gainesville, Florida
   degree: BS in Computer Engineering; May 2004
 portfolio:
-  - "Visualization of UF's org structure using data from VIVO: http://github.com/arockwell/vivo_org_chart"
-  - "Program to generate this resume in text, html, and pdf format: http://github.com/arockwell/resume"
+  - "Visualization of UF's organization structure using semantic web data from VIVO: http://github.com/arockwell/vivo_org_chart"
+  - "Program to generate this resume in text and pdf format: http://github.com/arockwell/resume"
   - "Programming blog: http://alexrockwell.org."
-  - "Web design example: http://nodetracker.com (app is still in prototype stage)"
+  - "Web design example: http://nodetracker.com"
 
 references: 
   - Sara Russell Gonzalez - Science Librarian - 352-871-3992
