@@ -97,12 +97,7 @@ class PdfFormatter
     @pdf.table skills do
       cells.borders = []
       cells.padding = 2
-      rows(0..skills.size).columns(0).borders = [:top, :left, :right]
-      rows(0).columns(1..2).borders = [:top, :right]
-      rows(1..skills.size-2).columns(0).borders = [:left, :right]
-      rows(1..skills.size-2).columns(1..2).borders = [:right]
-      rows(skills.size-1).columns(1..2).borders = [:right, :bottom]
-      rows(skills.size-1).columns(0).borders = [:left, :right, :bottom]
+      rows(0..skills.size).columns(0).padding_right = 60
     end
     @pdf.text "\n"
   end
