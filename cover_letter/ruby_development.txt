@@ -1,0 +1,20 @@
+Hi, I am a full-stack web programmer with experience in system administration, database design, data analysis, application development, and web design.
+
+I have a wide variety of skills and enjoy using them on new and challenging projects. Here is a sample of the projects I have worked on in the past year:
+
+ * Semantic web crawler to extract the organization hierarchy of UF from http://vivo.ufl.edu and draw the resulting graph (http://github.com/arockwell/vivo_org_chart)
+ * Automating server installation and configuration with Ruby Chef
+ * Several data analysis and manipulation script to find inconsistencies and clean up problems with data for http://vivo.ufl.edu
+ * Several website scraping utilities (e.g., http://github.com/arockwell/vivo_webapi)
+ * Parser written using Treetop for the RIS format (used for storing bibliographic references): http://github.com/arockwell/ris_parser
+ * Simple RoR app to store SPARQL queries to run against any of our test and production environments (https://github.com/arockwell/vivo_report_saver)
+
+Almost all of my code written in the past year is available on GitHub. I work primarily in Ruby, but I enjoy programming in Javascript, Python, Java. I also have some exposure to Objective-C and building apps for iOS.
+
+Attached is my resume. My resume is programmatically generated from a YAML file describing all of my work experience and skills. My program generates a text version and a PDF version. This program grew out of my frustration at trying to maintain a resume that looked professional across multiple formats. The source code is available at http://github.com/arockwell/resume.
+
+If you are interested in seeing some of my writing take a look at my blog (http://alexrockwell.org) or my Stack Overflow profile (http://stackoverflow.com/users/65225/alex-rockwell). My most popular article is about my experience with working with Redis: http://alexrockwell.org/using-redis-to-control-a-recurring-task-queue.
+
+Thanks for reading,
+
+Alex Rockwell
