@@ -1,6 +1,6 @@
 Hi, 
 
-I am a full-stack web programmer with experience in system administration, database design, data analysis, application development, and web design. Almost all of of the code I have written in the past year is available on GitHub. I work primarily in Ruby, but am also proficient with Javascript, Python, and Java. I have some experience programmin in Objective-C and building apps for iOS.
+I am a software engineer with experience in system administration, database design, data analysis, application development, and web design.
 
 I have a wide variety of skills and enjoy using them on new and challenging projects. Here is a sample of the projects I have worked on in the past year:
 
@@ -11,6 +11,8 @@ I have a wide variety of skills and enjoy using them on new and challenging proj
  * Parser written using Treetop for the RIS format (used for storing bibliographic references): http://github.com/arockwell/ris_parser
  * Simple Ruby on Rails app to store SPARQL queries that can be later run against any of our test or production environments (https://github.com/arockwell/vivo_report_saver)
  * Program to generate my resume in text and pdf format (http://github.com/arockwell/resume)
+
+Almost all of my code written in the past year is available on GitHub. I work primarily in Ruby, but I enjoy programming in Javascript, Bash, Python, and Java. Additionally, I have experience as a system administrator on a wide variety of servers and platforms: Linux, MySQL, DB2, Apache, Tomcat, and JBoss.
 
 Samples of my writing can be found on Stackoverflow and my blog:
  * Basic Metaprogramming with Ruby and Rake: http://alexrockwell.org/basic-metaprogramming-with-ruby-and-rake
