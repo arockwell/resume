@@ -3,11 +3,17 @@ email: arockwell@gmail.com
 phone: 352.281.6571
 website: http://alexrockwell.org
 heading: Software Engineer and System Administrator
-overview: Experience in system administration, database design, data analysis, application development, and web design.
+overview: Experience in application development, system administration, database design, and data analysis.
 work_history:
+  - title: Software Engineer
+    location: Bleacher Report
+    dates: 2011-2013
+    accomplishments:
+      - Created a Node.js service in Coffeescript that delivered millions of push notifications a day.
+      - Experienced in debugging and creating instrumentation for concurrent code.
   - title: System Administrator 
     location: University of Florida, Marston Science Library 
-    dates: 2010-current
+    dates: 2010-2011
     accomplishments: 
       - Designed and implemented open source utilities to import and analyze data for VIVO.
       - Automated server configuration and deployment with Ruby Chef.
@@ -22,21 +28,14 @@ work_history:
       - Led migration of more than 20 web applications from Jetspeed Portal to JBoss Portal.
       - Implemented automated software testing to improve development time using TestNG.
 
-  - title: Database Administrator 
-    location: University of Florida CNS 
-    dates: 2004-2008
-    accomplishments: 
-      - Developed an automated backup solution for DB2 using TSM to handle 40 GB of data.
-      - Designed and implemented an automated database growth size tracking system.
-
 skills: 
   - 
     - Programming Languages
-    - Ruby, Javascript, Bash, Java, and Python
+    - Ruby, Javascript, Coffeescript, Java, and Python
 
   -
     - Web Development
-    - HTML5, CSS, Rails, jQuery, XML, JSON, and RDF
+    - HTML5, Rails, Node.js, jQuery, XML, CSS, JSON, and RDF
 
   -
     - Software Tools
@@ -58,10 +57,10 @@ education:
   location: University of Florida, Gainesville, Florida
   degree: BS in Computer Engineering; May 2004
 portfolio:
+  - "Ruby library to send c2dm notifications at a high rate: https://github.com/arockwell/c2dm_batch"
   - "Visualization of UF's organization structure using semantic web data from VIVO: http://github.com/arockwell/vivo_org_chart"
   - "Program to generate this resume in text and pdf format: http://github.com/arockwell/resume"
   - "Programming blog: http://alexrockwell.org."
-  - "Web design example: http://nodetracker.com"
 
 references: 
   - Sara Russell Gonzalez - Science Librarian - 352-871-3992
