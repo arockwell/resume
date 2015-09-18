@@ -3,9 +3,9 @@ arockwell@gmail.com
 352.281.6571
 http://alexrockwell.org
 
-Software Engineer and System Administrator
+Software Engineer
 
-Experience in application development, system administration, database design, and data analysis.
+Experience in application development, data analysis, database design, and system administration.
 
 Skills
 
@@ -18,23 +18,24 @@ Operating Systems: Linux, Mac OS X, and Windows
 
 Work History
 
+Senior Software Engineer
+Quri, 2013-Present
+  * Developed system for mass payment processing for EasyShift
+  * Created revenue recognition system
+  * Designed and implemented KPI dashboard using Chartio
+
 Software Engineer
 Bleacher Report, 2011-2013
-  * Created a Node.js service in Coffeescript that delivered millions of push notifications a day.
-  * Experienced in debugging and creating instrumentation for concurrent code.
+  * Created a Node.js service in Coffeescript that delivered millions of push notifications a day
+  * Experienced in debugging and creating instrumentation for concurrent code
 
-System Administrator
-University of Florida, Marston Science Library, 2010-2011
-  * Designed and implemented open source utilities to import and analyze data for VIVO.
-  * Automated server configuration and deployment with Ruby Chef.
-  * Managed installation and upgrades of VIVO.
-
-Web Developer
-University of Florida, Department of Housing, 2008-2010
-  * Designed and implemented two internal web applications with over 100 users.
-  * Helped maintain legacy web applications on a large code base (>200 KLOC).
-  * Led migration of more than 20 web applications from Jetspeed Portal to JBoss Portal.
-  * Implemented automated software testing to improve development time using TestNG.
+Software Engineer and System Administrator
+University of Florida, 2004-2011
+  * Designed and implemented open source utilities to import and analyze data for VIVO
+  * Automated server configuration and deployment with Ruby Chef
+  * Designed and implemented two internal web applications with over 100 users
+  * Helped maintain legacy web applications on a large code base (>200 KLOC)
+  * Led migration of more than 20 web applications from Jetspeed Portal to JBoss Portal
 
 Portfolio
 

@@ -2,34 +2,36 @@ name: Alex Rockwell
 email: arockwell@gmail.com
 phone: 352.281.6571
 website: http://alexrockwell.org
-heading: Software Engineer and System Administrator
-overview: Experience in application development, system administration, database design, and data analysis.
+heading: Software Engineer
+overview: Experience in application development, data analysis, database design, and system administration.
 work_history:
+  - title: Senior Software Engineer
+    location: Quri
+    dates: 2013-Present
+    accomplishments:
+      - Developed system for mass payment processing for EasyShift
+      - Created revenue recognition system
+      - Designed and implemented KPI dashboard using Chartio
+
   - title: Software Engineer
     location: Bleacher Report
     dates: 2011-2013
     accomplishments:
-      - Created a Node.js service in Coffeescript that delivered millions of push notifications a day.
-      - Experienced in debugging and creating instrumentation for concurrent code.
-  - title: System Administrator 
-    location: University of Florida, Marston Science Library 
-    dates: 2010-2011
-    accomplishments: 
-      - Designed and implemented open source utilities to import and analyze data for VIVO.
-      - Automated server configuration and deployment with Ruby Chef.
-      - Managed installation and upgrades of VIVO.
+      - Created a Node.js service in Coffeescript that delivered millions of push notifications a day
+      - Experienced in debugging and creating instrumentation for concurrent code
 
-  - title: Web Developer 
-    location: University of Florida, Department of Housing 
-    dates: 2008-2010
-    accomplishments: 
-      - Designed and implemented two internal web applications with over 100 users.
-      - Helped maintain legacy web applications on a large code base (>200 KLOC).
-      - Led migration of more than 20 web applications from Jetspeed Portal to JBoss Portal.
-      - Implemented automated software testing to improve development time using TestNG.
+  - title: Software Engineer and System Administrator
+    location: University of Florida
+    dates: 2004-2011
+    accomplishments:
+      - Designed and implemented open source utilities to import and analyze data for VIVO
+      - Automated server configuration and deployment with Ruby Chef
+      - Designed and implemented two internal web applications with over 100 users
+      - Helped maintain legacy web applications on a large code base (>200 KLOC)
+      - Led migration of more than 20 web applications from Jetspeed Portal to JBoss Portal
 
-skills: 
-  - 
+skills:
+  -
     - Programming Languages
     - Ruby, Javascript, Coffeescript, Java, and Python
 
@@ -62,8 +64,7 @@ portfolio:
   - "Program to generate this resume in text and pdf format: http://github.com/arockwell/resume"
   - "Programming blog: http://alexrockwell.org."
 
-references: 
+references:
   - Sara Russell Gonzalez - Science Librarian - 352-871-3992
   - Brandon Vega - Business Applications Manager - 352-392-2171
   - Daniel Westermann-Clark - Senior Web Developer - 352-871-8206
-
