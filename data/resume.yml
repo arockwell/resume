@@ -6,8 +6,16 @@ heading: Software Engineer
 overview: Experience in application development, data analysis, database design, and system administration.
 work_history:
   - title: Senior Software Engineer
+    location: 17hats
+    dates: Jan 2016 - Oct 2016
+    accomplishments:
+      - Designed and implemented backend for a call center handling over 100 calls a day using Twilio
+      - Worked with front-end and mobile engineers to integrate with Twilio backend
+      - Instrumental in improving backend performance by profiling code and tuning SQL queries
+
+  - title: Senior Software Engineer
     location: Quri
-    dates: 2013-Present
+    dates: 2013 - 2016
     accomplishments:
       - Developed system for mass payment processing for EasyShift
       - Created revenue recognition system
@@ -15,20 +23,19 @@ work_history:
 
   - title: Software Engineer
     location: Bleacher Report
-    dates: 2011-2013
+    dates: 2011 - 2013
     accomplishments:
       - Created a Node.js service in Coffeescript that delivered millions of push notifications a day
       - Experienced in debugging and creating instrumentation for concurrent code
 
   - title: Software Engineer and System Administrator
     location: University of Florida
-    dates: 2004-2011
+    dates: 2004 - 2011
     accomplishments:
       - Designed and implemented open source utilities to import and analyze data for VIVO
       - Automated server configuration and deployment with Ruby Chef
       - Designed and implemented two internal web applications with over 100 users
       - Helped maintain legacy web applications on a large code base (>200 KLOC)
-      - Led migration of more than 20 web applications from Jetspeed Portal to JBoss Portal
 
 skills:
   -
@@ -44,12 +51,8 @@ skills:
     - Vim, Git, Subversion, and Eclipse
 
   -
-    - Databases
-    - MySQL, DB2, PostgreSQL, and Redis
-
-  -
-    - Data Analysis
-    - SQL and SPARQL
+    - Databases techonlogies
+    - MySQL, DB2, PostgreSQL, Redis, SQL and SPARQL
 
   -
     - Operating Systems

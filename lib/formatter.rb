@@ -35,8 +35,7 @@ class PlainTextFormatter
 
   def work_history(work_history)
     work_history.each do |job|
-      @result += "#{job['title']}\n"
-      @result += "#{job['location']}, #{job['dates']}\n"
+      @result += "#{job['title']} - #{job['location']}, #{job['dates']}\n"
       job['accomplishments'].each do |accomplishment|
         @result += "  * #{accomplishment}\n"
       end
@@ -53,7 +52,7 @@ class PlainTextFormatter
     @result += string + "\n"
   end
 
-  def list(strings) 
+  def list(strings)
     result = ""
     strings.each do |string|
       result += "  * " + string + "\n"
@@ -105,8 +104,7 @@ class PdfFormatter
 
   def work_history(jobs)
     jobs.each do |job|
-      @pdf.text job['title'], :style => :bold
-      @pdf.text("#{job['location']}, #{job['dates']}")
+      @pdf.text "#{job['title']} - #{job['location']}, #{job['dates']}" , :style => :bold
       list(job['accomplishments'])
       @pdf.text "\n"
     end
@@ -144,7 +142,7 @@ class PdfFormatter
       end
     end
   end
-  
+
   def break_line()
     @pdf.text "\n"
   end

@@ -12,30 +12,30 @@ Skills
 Programming Languages: Ruby, Javascript, Coffeescript, Java, and Python
 Web Development: HTML5, Rails, Node.js, React, jQuery, CSS, and Bootstrap
 Software Tools: Vim, Git, Subversion, and Eclipse
-Databases: MySQL, DB2, PostgreSQL, and Redis
-Data Analysis: SQL and SPARQL
+Databases techonlogies: MySQL, DB2, PostgreSQL, Redis, SQL and SPARQL
 Operating Systems: Linux, Mac OS X, and Windows
 
 Work History
 
-Senior Software Engineer
-Quri, 2013-Present
+Senior Software Engineer - 17hats, Jan 2016 - Oct 2016
+  * Designed and implemented backend for a call center handling over 100 calls a day using Twilio
+  * Worked with front-end and mobile engineers to integrate with Twilio backend
+  * Instrumental in improving backend performance by profiling code and tuning SQL queries
+
+Senior Software Engineer - Quri, 2013 - 2016
   * Developed system for mass payment processing for EasyShift
   * Created revenue recognition system
   * Designed and implemented KPI dashboard using Chartio
 
-Software Engineer
-Bleacher Report, 2011-2013
+Software Engineer - Bleacher Report, 2011 - 2013
   * Created a Node.js service in Coffeescript that delivered millions of push notifications a day
   * Experienced in debugging and creating instrumentation for concurrent code
 
-Software Engineer and System Administrator
-University of Florida, 2004-2011
+Software Engineer and System Administrator - University of Florida, 2004 - 2011
   * Designed and implemented open source utilities to import and analyze data for VIVO
   * Automated server configuration and deployment with Ruby Chef
   * Designed and implemented two internal web applications with over 100 users
   * Helped maintain legacy web applications on a large code base (>200 KLOC)
-  * Led migration of more than 20 web applications from Jetspeed Portal to JBoss Portal
 
 Portfolio
 
