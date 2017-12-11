@@ -6,6 +6,19 @@ heading: Software Engineer
 overview: Experience in application development, data analysis, database design, and system administration.
 work_history:
   - title: Senior Software Engineer
+    location: TeamSnap
+    dates: Apr 2017 - Dec 2017
+    accomplishments:
+      - Worked with a team to design and implement an invoicing system in Ruby.
+      - Analyzed the billing system to accodamate a large customer.
+      - Worked to identify slow parts of the site.
+  - title: Senior Software Engineer
+    location: SharpSpring
+    dates: Dec 2016 - Mar 2017
+    accomplishments:
+      - Worked on fixing bugs in large PHP application.
+      - Helped implement a job processing system in Go.
+  - title: Senior Software Engineer
     location: 17hats
     dates: Jan 2016 - Oct 2016
     accomplishments:
@@ -15,7 +28,7 @@ work_history:
 
   - title: Senior Software Engineer
     location: Quri
-    dates: 2013 - 2016
+    dates: May 2013 - Jan 2016
     accomplishments:
       - Developed system for mass payment processing for EasyShift
       - Created revenue recognition system
@@ -23,20 +36,35 @@ work_history:
 
   - title: Software Engineer
     location: Bleacher Report
-    dates: 2011 - 2013
+    dates: Sept 2011 - Apr 2013
     accomplishments:
       - Created a Node.js service in Coffeescript that delivered millions of push notifications a day
       - Experienced in debugging and creating instrumentation for concurrent code
 
-  - title: Software Engineer and System Administrator
-    location: University of Florida
-    dates: 2004 - 2011
+  - title: System Administrator
+    location: University of Florida, Marston Science Library
+    dates: Apr 2010 - Aug 2011
     accomplishments:
-      - Designed and implemented open source utilities to import and analyze data for VIVO
-      - Automated server configuration and deployment with Ruby Chef
-      - Designed and implemented two internal web applications with over 100 users
-      - Helped maintain legacy web applications on a large code base (>200 KLOC)
+      - Created visualization of the organizational hierarchy of UF, from semantic web data in VIVO.
+      - Designed and implemented several open source utilities to extract and manage RDF data.
+      - Managed installation and upgrades of VIVO.
+      - Automated server configuration and deployment with Ruby Chef.
 
+  - title: Web Developer
+    location: University of Florida, Department of Housing
+    dates: Feb 2008 - Mar 2010
+    accomplishments:
+      - Designed and implemented two internal web applications with over 100 users.
+      - Helped maintain legacy web applications on a large code base (>200 KLOC).
+      - Led migration of more than 20 web applications from Jetspeed Portal to JBoss Portal.
+      - Implemented automated software testing to improve development time using TestNG.
+
+  - title: Database Administrator
+    location: University of Florida, Computer Networking Services
+    dates: Jul 2004 - Feb 2008
+    accomplishments:
+      - Developed an automated backup solution for DB2 using TSM to handle 40 GB of data.
+      - Designed and implemented an automated database growth size tracking system.
 skills:
   -
     - Programming Languages
