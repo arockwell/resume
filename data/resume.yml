@@ -10,8 +10,8 @@ work_history:
     dates: Apr 2017 - Dec 2017
     accomplishments:
       - Worked with a team to design and implement an invoicing system in Ruby.
-      - Analyzed the billing system to accodamate a large customer.
-      - Worked to identify slow parts of the site.
+      - Analyzed the billing system to ensure compatibility with a new enterprise contract.
+      - Worked with SRE team to identify poorly performing parts of the application using Datadog.
   - title: Senior Software Engineer
     location: SharpSpring
     dates: Dec 2016 - Mar 2017
@@ -79,7 +79,7 @@ skills:
     - Vim, Git, Subversion, and Eclipse
 
   -
-    - Databases techonlogies
+    - Databases Technologies
     - MySQL, DB2, PostgreSQL, Redis, SQL and SPARQL
 
   -
