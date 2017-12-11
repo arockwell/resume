@@ -135,10 +135,7 @@ class PdfFormatter
   def list(strings)
     strings.each do |string|
       @pdf.indent(10) do
-        @pdf.float { @pdf.text "•" }
-        @pdf.indent(10) do
-          @pdf.text "#{string}\n"
-        end
+        @pdf.text "• #{string}\n"
       end
     end
   end
