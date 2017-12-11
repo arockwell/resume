@@ -40,19 +40,19 @@ Software Engineer - Bleacher Report, Sept 2011 - Apr 2013
   * Created a Node.js service in Coffeescript that delivered millions of push notifications a day
   * Debugged and created instrumentation for concurrent code
 
-System Administrator - University of Florida, Marston Science Library, Apr 2010 - Aug 2011
+System Administrator - University of Florida (UF), Science Library, Apr 2010 - Aug 2011
   * Created visualization of the organizational hierarchy of UF, from semantic web data in VIVO
   * Designed and implemented several open source utilities to extract and manage RDF data
   * Managed installation and upgrades of VIVO.
   * Automated server configuration and deployment with Ruby Chef
 
-Web Developer - University of Florida, Department of Housing, Feb 2008 - Mar 2010
+Web Developer - UF, Department of Housing, Feb 2008 - Mar 2010
   * Designed and implemented two internal web applications with over 100 users
   * Helped maintain legacy web applications on a large code base (>200 KLOC)
   * Led migration of more than 20 web applications from Jetspeed Portal to JBoss Portal
   * Implemented automated software testing to improve development time using TestNG
 
-Database Administrator - University of Florida, Computer Networking Services, Jul 2004 - Feb 2008
+Database Administrator - UF, Computer Networking Services, Jul 2004 - Feb 2008
   * Developed an automated backup solution for DB2 using TSM to handle 40 GB of data
   * Designed and implemented an automated database growth size tracking system
 
