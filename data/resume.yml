@@ -3,28 +3,28 @@ email: arockwell@gmail.com
 phone: 352.281.6571
 website: http://alexrockwell.org
 heading: Software Engineer
-overview: Experience in application development, data analysis, database design, and system administration.
+overview: Experience in application development, data analysis, database design, and system administration
 work_history:
   - title: Senior Software Engineer
     location: TeamSnap
     dates: Apr 2017 - Dec 2017
     accomplishments:
-      - Worked with a team to design and implement an invoicing system in Ruby.
-      - Analyzed the billing system to ensure compatibility with a new enterprise contract.
-      - Worked with SRE team to identify poorly performing parts of the application using Datadog.
+      - Worked with a team to design and implement an invoicing system in Ruby
+      - Analyzed the billing system to ensure compatibility with a new enterprise contract
+      - Worked with SRE team to identify poorly performing parts of the application using Datadog
   - title: Senior Software Engineer
     location: SharpSpring
     dates: Dec 2016 - Mar 2017
     accomplishments:
-      - Worked on fixing bugs in large PHP application.
-      - Helped implement a job processing system in Go.
+      - Fixed bugs in large PHP application
+      - Helped implement a job processing system in Go
   - title: Senior Software Engineer
     location: 17hats
     dates: Jan 2016 - Oct 2016
     accomplishments:
       - Designed and implemented backend for a call center handling over 100 calls a day using Twilio
       - Worked with front-end and mobile engineers to integrate with Twilio backend
-      - Instrumental in improving backend performance by profiling code and tuning SQL queries
+      - Improved backend performance by profiling code and tuning SQL queries
 
   - title: Senior Software Engineer
     location: Quri
@@ -39,36 +39,36 @@ work_history:
     dates: Sept 2011 - Apr 2013
     accomplishments:
       - Created a Node.js service in Coffeescript that delivered millions of push notifications a day
-      - Experienced in debugging and creating instrumentation for concurrent code
+      - Debugged and created instrumentation for concurrent code
 
   - title: System Administrator
     location: University of Florida, Marston Science Library
     dates: Apr 2010 - Aug 2011
     accomplishments:
-      - Created visualization of the organizational hierarchy of UF, from semantic web data in VIVO.
-      - Designed and implemented several open source utilities to extract and manage RDF data.
+      - Created visualization of the organizational hierarchy of UF, from semantic web data in VIVO
+      - Designed and implemented several open source utilities to extract and manage RDF data
       - Managed installation and upgrades of VIVO.
-      - Automated server configuration and deployment with Ruby Chef.
+      - Automated server configuration and deployment with Ruby Chef
 
   - title: Web Developer
     location: University of Florida, Department of Housing
     dates: Feb 2008 - Mar 2010
     accomplishments:
-      - Designed and implemented two internal web applications with over 100 users.
-      - Helped maintain legacy web applications on a large code base (>200 KLOC).
-      - Led migration of more than 20 web applications from Jetspeed Portal to JBoss Portal.
-      - Implemented automated software testing to improve development time using TestNG.
+      - Designed and implemented two internal web applications with over 100 users
+      - Helped maintain legacy web applications on a large code base (>200 KLOC)
+      - Led migration of more than 20 web applications from Jetspeed Portal to JBoss Portal
+      - Implemented automated software testing to improve development time using TestNG
 
   - title: Database Administrator
     location: University of Florida, Computer Networking Services
     dates: Jul 2004 - Feb 2008
     accomplishments:
-      - Developed an automated backup solution for DB2 using TSM to handle 40 GB of data.
-      - Designed and implemented an automated database growth size tracking system.
+      - Developed an automated backup solution for DB2 using TSM to handle 40 GB of data
+      - Designed and implemented an automated database growth size tracking system
 skills:
   -
     - Programming Languages
-    - Ruby, Javascript, Coffeescript, Java, and Python
+    - Ruby, Go, Elixir, Javascript, Coffeescript, Java, and Python
 
   -
     - Web Development
