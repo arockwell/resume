@@ -16,7 +16,7 @@ work_history:
     location: SharpSpring
     dates: Dec 2016 - Mar 2017
     accomplishments:
-      - Fixed bugs in large PHP application
+      - Fixed bugs in a large PHP application
       - Helped implement a job processing system in Go
   - title: Senior Software Engineer
     location: 17hats
@@ -30,15 +30,19 @@ work_history:
     location: Quri
     dates: May 2013 - Jan 2016
     accomplishments:
-      - Developed system for mass payment processing for EasyShift
-      - Created revenue recognition system
+      - Developed system for mass payment processing for EasyShift using Ruby on Rails
+      - Created revenue recognition system using Ruby on Rails and Salesforce
+      - Identified and fixed critical bugs and optimized features in a large Ruby on Rails application
       - Designed and implemented KPI dashboard using Chartio
+      - Trained non-technical staff to analyze data using SQL queries and Chartio
 
   - title: Software Engineer
     location: Bleacher Report
     dates: Sept 2011 - Apr 2013
     accomplishments:
       - Created a Node.js service in Coffeescript that delivered millions of push notifications a day
+      - Devloped the backend for a game called "Cut, Sit, Start" using Ruby on Rails
+      - Optimized login authentication through Facebook using Javascript
       - Debugged and created instrumentation for concurrent code
 
   - title: System Administrator

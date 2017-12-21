@@ -23,7 +23,7 @@ Senior Software Engineer - TeamSnap, Apr 2017 - Dec 2017
   * Worked with SRE team to identify poorly performing parts of the application using Datadog
 
 Senior Software Engineer - SharpSpring, Dec 2016 - Mar 2017
-  * Fixed bugs in large PHP application
+  * Fixed bugs in a large PHP application
   * Helped implement a job processing system in Go
 
 Senior Software Engineer - 17hats, Jan 2016 - Oct 2016
@@ -32,12 +32,16 @@ Senior Software Engineer - 17hats, Jan 2016 - Oct 2016
   * Improved backend performance by profiling code and tuning SQL queries
 
 Senior Software Engineer - Quri, May 2013 - Jan 2016
-  * Developed system for mass payment processing for EasyShift
-  * Created revenue recognition system
+  * Developed system for mass payment processing for EasyShift using Ruby on Rails
+  * Created revenue recognition system using Ruby on Rails and Salesforce
+  * Identified and fixed critical bugs and optimized features in a large Ruby on Rails application
   * Designed and implemented KPI dashboard using Chartio
+  * Trained non-technical staff to analyze data using SQL queries and Chartio
 
 Software Engineer - Bleacher Report, Sept 2011 - Apr 2013
   * Created a Node.js service in Coffeescript that delivered millions of push notifications a day
+  * Devloped the backend for a game called "Cut, Sit, Start" using Ruby on Rails
+  * Optimized login authentication through Facebook using Javascript
   * Debugged and created instrumentation for concurrent code
 
 System Administrator - University of Florida (UF), Science Library, Apr 2010 - Aug 2011
