@@ -2,6 +2,7 @@
 require 'rubygems'
 require 'bundler/setup'
 require 'prawn'
+require 'prawn/table'
 
 class PlainTextFormatter
   attr :result
