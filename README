@@ -17,6 +17,17 @@ Operating Systems: Linux, Mac OS X, and Windows
 
 Work History
 
+Senior Software Engineer - Doximity, Apr 2020 - Dec 2022
+  * Led ad inventory expansion projects, which increased ad inventory by 30% YoY
+  * Led project to simplify ad serving architecture, so that ads were requested from a central server
+  * Created a holistic approach to monitoring ad performance to detect production issues faster
+  * Developed automated video transcription tools integrating AI summarization
+  * Mentored engineers in ads code base
+
+Software Engineer - Doximity, Mar 2018 - Mar 2020
+  * Used Kafka to create an ad event pipeline that processed millions of events daily
+  * Created the dialer ads api in Ruby on Rails unlocking $100mm/year in revenue opportunity
+
 Senior Software Engineer - TeamSnap, Apr 2017 - Dec 2017
   * Worked with a team to design and implement an invoicing system in Ruby
   * Analyzed the billing system to ensure compatibility with a new enterprise contract

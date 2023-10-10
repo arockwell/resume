@@ -1,10 +1,25 @@
 name: Alex Rockwell
-email: arockwell@gmail.com
+email: alex.rockwell@hey.com
 phone: 352.281.6571
 website: http://alexrockwell.org
 heading: Software Engineer
 overview: Experience in application development, data analysis, database design, and system administration
-work_history:
+work_history:  
+  - title: Senior Software Engineer 
+    location: Doximity
+    dates: Apr 2020 - Dec 2022
+    accomplishments:
+      - Led ad inventory expansion projects, which increased ad inventory by 30% YoY
+      - Led project to simplify ad serving architecture, so that ads were requested from a central server
+      - Created a holistic approach to monitoring ad performance to detect production issues faster
+      - Developed automated video transcription tools integrating AI summarization
+      - Mentored engineers in ads code base
+  - title: Software Engineer
+    location: Doximity
+    dates: Mar 2018 - Mar 2020
+    accomplishments:
+      - Used Kafka to create an ad event pipeline that processed millions of events daily
+      - Created the dialer ads api in Ruby on Rails unlocking $100mm/year in revenue opportunity
   - title: Senior Software Engineer
     location: TeamSnap
     dates: Apr 2017 - Dec 2017
