@@ -97,6 +97,10 @@ skills:
     - Databases Technologies
     - MySQL, DB2, PostgreSQL, Redis, SQL and SPARQL
 
+  - 
+    - Messaging Systems
+    - Kafka and RabbitMQ
+
 education:
   location: University of Florida, Gainesville, Florida
   degree: BS in Computer Engineering; May 2004
