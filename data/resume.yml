@@ -56,7 +56,7 @@ work_history:
     dates: Sept 2011 - Apr 2013
     accomplishments:
       - Created a Node.js service in Coffeescript that delivered millions of push notifications a day
-      - Devloped the backend for a game called "Cut, Sit, Start" using Ruby on Rails
+      - Developed the backend for a game called "Start, Sit, Cut" using Ruby on Rails
       - Optimized login authentication through Facebook using Javascript
       - Debugged and created instrumentation for concurrent code
 
