@@ -2,6 +2,7 @@
 require 'rubygems'
 require 'bundler/setup'
 require 'json'
+require 'erb'
 
 class Generator
   def generate_resume(resume, filename, formatter)
@@ -30,4 +31,13 @@ class Generator
     return formatter.render(filename)
   end
 
+  def generate_cover_letter(template, position, company)
+    template_file = File.read(template)
+    template = ERB.new(template_file)
+
+    @position = position
+    @company = company
+
+    return template.result(binding)
+  end
 end
