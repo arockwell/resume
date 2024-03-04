@@ -134,10 +134,10 @@ class PdfFormatter
   end
 
   def list(strings)
-    strings.each do |string|
-      @pdf.indent(10) do
-        @pdf.text "• #{string}\n"
-      end
+    list_data = strings.map { |string| ["•", string] }
+    pdf.table(list_data, cell_style: { borders: [], padding: [0, 10, 0, 0] },
+              column_widths: {0 => 20, 1 => pdf.bounds.width - 20 }) do
+      column(0).style(padding: [0,0,0,10])
     end
   end
 
