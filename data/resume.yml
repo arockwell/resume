@@ -18,8 +18,9 @@ work_history:
     location: Doximity
     dates: Mar 2018 - Mar 2020
     accomplishments:
-      - Used Kafka to create an ad event pipeline that processed millions of events daily
+      - Architected and led the development of a highly scalable ad tracking event pipeline, built with Kafka and Ruby on Rails to process millions of events daily
       - Created the dialer ads api in Ruby on Rails unlocking $100mm/year in revenue opportunity
+      - Resolved bugs in Amion data synchronization system written in Go
   - title: Senior Software Engineer
     location: TeamSnap
     dates: Apr 2017 - Dec 2017
