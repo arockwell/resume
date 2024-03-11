@@ -22,11 +22,12 @@ Senior Software Engineer - Doximity, Apr 2020 - Aug 2023
   * Simplified ad serving architecture by implementing a centralized server for ad requests
   * Enhanced issue detection by creating a comprehensive approach to monitoring ad performance
   * Integrated Al summarization into automated video transcription tools for improved efficiency
-  * Mentored engineers in ads code base
+  * Fostered a collaborative learning environment, mentoring multiple engineers and supporting their career progression
 
 Software Engineer - Doximity, Mar 2018 - Mar 2020
-  * Used Kafka to create an ad event pipeline that processed millions of events daily
+  * Architected and led the development of a highly scalable ad tracking event pipeline, built with Kafka and Ruby on Rails to process millions of events daily
   * Created the dialer ads api in Ruby on Rails unlocking $100mm/year in revenue opportunity
+  * Resolved bugs in Amion data synchronization system written in Go
 
 Senior Software Engineer - TeamSnap, Apr 2017 - Dec 2017
   * Worked with a team to design and implement an invoicing system in Ruby
