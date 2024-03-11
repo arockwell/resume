@@ -13,6 +13,7 @@ Programming Languages: Ruby, Javascript, Go, Python, Java, and Coffescript
 Web Development: Ruby on Rails, Vue.js, React, and jQuery
 Databases Technologies: MySQL, DB2, PostgreSQL, Redis, SQL and SPARQL
 Messaging Systems: Kafka and RabbitMQ
+CI/CD Tools: Jenkins, Circle CI, Github Actions, Hubot, and Lita
 Cloud Monitoring Tools: Sumologic, Scoutapp, New Relic, Datadog, and Grafana
 
 Work History
@@ -21,7 +22,7 @@ Senior Software Engineer - Doximity, Apr 2020 - Aug 2023
   * Increased ad inventory by 30% YoY through leading ad inventory expansion projects
   * Simplified ad serving architecture by implementing a centralized server for ad requests
   * Enhanced issue detection by creating a comprehensive approach to monitoring ad performance
-  * Integrated Al summarization into automated video transcription tools for improved efficiency
+  * Developed a proof-of-concept backend for an AI-powered transcript summarization tool
   * Fostered a collaborative learning environment, mentoring multiple engineers and supporting their career progression
 
 Software Engineer - Doximity, Mar 2018 - Mar 2020

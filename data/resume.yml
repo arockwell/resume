@@ -101,6 +101,10 @@ skills:
   - 
     - Messaging Systems
     - Kafka and RabbitMQ
+
+  -
+    - CI/CD Tools
+    - Jenkins, Circle CI, Github Actions, Hubot, and Lita
   
   - 
     - Cloud Monitoring Tools
