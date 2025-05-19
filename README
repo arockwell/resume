@@ -18,6 +18,12 @@ Cloud Monitoring Tools: Sumologic, Scoutapp, New Relic, Datadog, and Grafana
 
 Work History
 
+Senior Software Engineer - Order.co, Apr 2024 - current
+  * Rewrote invoice building, cutting P95 build time to <1s and lifting test coverage past 90%
+  * Automated KYC/AML onboarding by linking intake forms to a compliance decision engine
+  * Developed Zendesk integration, auto-populating tickets and reducing time to resolve requests
+  * Mentored two engineers on the team and improved code quality through reviews and pairing
+
 Senior Software Engineer - Doximity, Apr 2020 - Aug 2023
   * Increased ad inventory by 30% YoY through leading ad inventory expansion projects
   * Simplified ad serving architecture by implementing a centralized server for ad requests

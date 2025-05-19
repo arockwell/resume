@@ -4,7 +4,15 @@ phone: 352.281.6571
 website: https://www.alexrockwell.org
 heading: Senior Software Engineer
 overview: Experience in application development, data analysis, database design, and system administration
-work_history:  
+work_history:
+  - title: Senior Software Engineer
+    location: Order.co
+    dates: Apr 2024 - current
+    accomplishments:
+    - Rewrote invoice building, cutting P95 build time to <1s and lifting test coverage past 90%
+    - Automated KYC/AML onboarding by linking intake forms to a compliance decision engine 
+    - Developed Zendesk integration, auto-populating tickets and reducing time to resolve requests
+    - Mentored two engineers on the team and improved code quality through reviews and pairing
   - title: Senior Software Engineer 
     location: Doximity
     dates: Apr 2020 - Aug 2023
