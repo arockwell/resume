@@ -96,15 +96,15 @@ work_history:
 skills:
   -
     - Programming Languages
-    - Ruby, Javascript, Go, Python, Java, and Coffescript
+    - Ruby, Javascript, Python, Go, and Java
 
   -
     - Web Development
-    - Ruby on Rails, Vue.js, React, and jQuery
+    - Ruby on Rails, Vue.js, React, and CSS
 
   -
     - Databases Technologies
-    - MySQL, DB2, PostgreSQL, Redis, SQL and SPARQL
+    - MySQL, PostgreSQL, Redis, SQL
 
   - 
     - Messaging Systems
@@ -112,7 +112,7 @@ skills:
 
   -
     - CI/CD Tools
-    - Jenkins, Circle CI, Github Actions, Hubot, and Lita
+    - Circle CI, Github Actions, and Jenkins
   
   - 
     - Cloud Monitoring Tools
