@@ -7,7 +7,7 @@ overview: Experience in application development, data analysis, database design,
 work_history:
   - title: Senior Software Engineer
     location: Order.co
-    dates: Apr 2024 - current
+    dates: Apr 2024 - Sept 2025
     accomplishments:
     - Rewrote invoice building, cutting P95 build time to <1s and lifting test coverage past 90%
     - Automated KYC/AML onboarding by linking intake forms to a compliance decision engine 

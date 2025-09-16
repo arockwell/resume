@@ -17,7 +17,7 @@ endobj
 >>
 endobj
 4 0 obj
-<< /Length 9724
+<< /Length 9728
 >>
 stream
 q
@@ -185,7 +185,7 @@ S
 BT
 36.0 464.916 Td
 /F2.0 12 Tf
-[<53656e696f7220536f66747761726520456e67696e656572202d204f72> 20 <646572> 60 <2e636f2c204170722032303234202d2063757272656e74>] TJ
+[<53656e696f7220536f66747761726520456e67696e656572202d204f72> 20 <646572> 60 <2e636f2c204170722032303234202d20536570742032303235>] TJ
 ET
 
 1 w
@@ -1154,45 +1154,16 @@ xref
 0000000109 00000 n 
 0000000158 00000 n 
 0000000221 00000 n 
-0000009997 00000 n 
-0000010275 00000 n 
-0000010377 00000 n 
-0000010474 00000 n 
-0000019969 00000 n 
+0000010001 00000 n 
+0000010279 00000 n 
+0000010381 00000 n 
+0000010478 00000 n 
+0000019973 00000 n 
 trailer
 << /Size 10
 /Root 2 0 R
 /Info 1 0 R
 >>
 startxref
-20247
-%%EOF
-1 0 obj
-<< /Creator (Prawn) /Producer (macOS Version 15.2 \(Build 24C5073e\) Quartz PDFContext, AppendMode 1.1)
-/ModDate (D:20250519000533Z00'00') >>
-endobj
-5 0 obj
-<< /BleedBox [ 0 0 612 792 ] /Type /Page /ArtBox [ 0 0 612 792 ] /MediaBox
-[ 0 0 612 792 ] /Parent 3 0 R /CropBox [ 0 0 612 792 ] /Resources << /Font
-<< /F2.0 6 0 R /F1.0 7 0 R >> /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI
-] >> /Rotate 0 /Contents 4 0 R /TrimBox [ 0 0 612 792 ] >>
-endobj
-9 0 obj
-<< /BleedBox [ 0 0 612 792 ] /Type /Page /ArtBox [ 0 0 612 792 ] /MediaBox
-[ 0 0 612 792 ] /Parent 3 0 R /CropBox [ 0 0 612 792 ] /Resources << /Font
-<< /F1.0 7 0 R /F2.0 6 0 R >> /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI
-] >> /Rotate 0 /Contents 8 0 R /TrimBox [ 0 0 612 792 ] >>
-endobj
-xref
-0 2
-0000000000 65535 f 
-0000020526 00000 n 
-5 1
-0000020683 00000 n 
-9 1
-0000020983 00000 n 
-trailer
-<< /ID [<><BB0305310882DC85038C1A87B93AA1C2> ] /Root 2 0 R /Size 10 /Prev 20247 /Info 1 0 R >> 
-startxref
-21283
+20251
 %%EOF
