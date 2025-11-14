@@ -9,15 +9,15 @@ work_history:
     location: Order.co
     dates: Apr 2024 - Sept 2025
     accomplishments:
-    - Rewrote invoice building, cutting P95 build time to <1s and lifting test coverage past 90%
+    - Redesigned and rebuilt invoice generation system, cutting P95 build time to <1s, boosting test coverage to 90%, and improving code maintainability
     - Automated KYC/AML compliance checks by integrating intake forms with decision engine, accelerating customer onboarding and reducing manual verification errors 
     - Built Zendesk integration that auto-populated customer context, reducing average resolution time by 30%
-    - Mentored engineers on team practices and architecture decisions through code reviews and pairing sessions
+    - Mentored engineers through code reviews and pairing, improving team code quality and engineering practices
   - title: Senior Software Engineer 
     location: Doximity
     dates: Apr 2020 - Aug 2023
     accomplishments:
-      - Drove 30% YoY ad inventory growth over 4 years by leading expansion into new channels and evolving architecture from push to pull model to enable rapid ad format development
+      - Re-architected ad platform from push to pull model, driving 30% YoY inventory growth through faster deployment of new ad formats
       - Reduced system complexity by consolidating ad serving logic into centralized request server, improving reliability and accelerating feature development
       - Created proactive monitoring across ad formats and client types, detecting delivery failures within minutes and preventing revenue loss
       - Mentored multiple engineers across experience levels, with 3 direct mentees promoted to engineering team lead roles
@@ -25,29 +25,29 @@ work_history:
     location: Doximity
     dates: Mar 2018 - Mar 2020
     accomplishments:
-      - Architected and led 3-stage event pipeline (Kafka/Rails) processing millions of daily events, eliminating event loss by separating ingestion, transformation, and reporting concerns with idempotency guarantees
+      - Architected 3-stage event pipeline (Kafka/Rails) processing millions of daily events, improving system resilience and enabling recovery from processing failures
       - Created the dialer ads api in Ruby on Rails unlocking $100mm/year in revenue opportunity
   - title: Senior Software Engineer
     location: 17hats
     dates: Jan 2016 - Oct 2016
     accomplishments:
-      - Architected and implemented Twilio-based call center backend handling 100+ daily calls across 6 agents
+      - Architected and implemented Twilio-based call center backend, enabling new product launch handling 100+ daily calls
 
   - title: Senior Software Engineer
     location: Quri
     dates: May 2013 - Jan 2016
     accomplishments:
-      - Developed system for mass payment processing for EasyShift using Ruby on Rails
-      - Created revenue recognition system using Ruby on Rails and Salesforce
-      - Designed and implemented KPI dashboard using Chartio
-      - Trained non-technical staff to analyze data using SQL queries and Chartio
+      - Developed mass payment processing system using Ruby on Rails, disbursing $5M annually
+      - Created revenue recognition system (Rails/Salesforce) strengthening financial controls and ensuring accurate reporting
+      - Designed and implemented KPI dashboard using Chartio, enabling data-driven operational decisions
+      - Trained non-technical staff on SQL and Chartio, enabling self-service data analysis and reporting
 
   - title: Software Engineer
     location: Bleacher Report
     dates: Sept 2011 - Apr 2013
     accomplishments:
-      - Scaled push notification system from 100K to 10M users (5M notifications/day) by evolving architecture through 3 iterations (single-threaded, multi-threaded, and Node.js/Redis)
-      - Developed the backend for a game called "Start, Sit, Cut" using Ruby on Rails
+      - Scaled push notification system from 100K to 10M users (5M notifications/day), iterating from Rails Delayed Job to Node.js/Redis architecture
+      - Developed backend for "Start, Sit, Cut" game in Ruby on Rails, launching to 30K users
 
 skills:
   -
