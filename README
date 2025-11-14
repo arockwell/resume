@@ -20,64 +20,32 @@ Work History
 
 Senior Software Engineer - Order.co, Apr 2024 - Sept 2025
   * Rewrote invoice building, cutting P95 build time to <1s and lifting test coverage past 90%
-  * Automated KYC/AML onboarding by linking intake forms to a compliance decision engine
-  * Developed Zendesk integration, auto-populating tickets and reducing time to resolve requests
-  * Mentored two engineers on the team and improved code quality through reviews and pairing
+  * Automated KYC/AML compliance checks by integrating intake forms with decision engine, accelerating customer onboarding and reducing manual verification errors
+  * Built Zendesk integration that auto-populated customer context, reducing average resolution time by 30%
+  * Mentored engineers on team practices and architecture decisions through code reviews and pairing sessions
 
 Senior Software Engineer - Doximity, Apr 2020 - Aug 2023
-  * Increased ad inventory by 30% YoY through leading ad inventory expansion projects
-  * Simplified ad serving architecture by implementing a centralized server for ad requests
-  * Enhanced issue detection by creating a comprehensive approach to monitoring ad performance
-  * Developed a proof-of-concept backend for an AI-powered transcript summarization tool
-  * Fostered a collaborative learning environment, mentoring multiple engineers and supporting their career progression
+  * Drove 30% YoY ad inventory growth over 4 years by leading expansion into new channels and evolving architecture from push to pull model to enable rapid ad format development
+  * Reduced system complexity by consolidating ad serving logic into centralized request server, improving reliability and accelerating feature development
+  * Created proactive monitoring across ad formats and client types, detecting delivery failures within minutes and preventing revenue loss
+  * Mentored multiple engineers across experience levels, with 3 direct mentees promoted to engineering team lead roles
 
 Software Engineer - Doximity, Mar 2018 - Mar 2020
-  * Architected and led the development of a highly scalable ad tracking event pipeline, built with Kafka and Ruby on Rails to process millions of events daily
+  * Architected and led 3-stage event pipeline (Kafka/Rails) processing millions of daily events, eliminating event loss by separating ingestion, transformation, and reporting concerns with idempotency guarantees
   * Created the dialer ads api in Ruby on Rails unlocking $100mm/year in revenue opportunity
-  * Resolved bugs in Amion data synchronization system written in Go
-
-Senior Software Engineer - TeamSnap, Apr 2017 - Dec 2017
-  * Worked with a team to design and implement an invoicing system in Ruby
-  * Analyzed the billing system to ensure compatibility with a new enterprise contract
-  * Worked with SRE team to identify poorly performing parts of the application using Datadog
-
-Senior Software Engineer - SharpSpring, Dec 2016 - Mar 2017
-  * Fixed bugs in a large PHP application
-  * Helped implement a job processing system in Go
 
 Senior Software Engineer - 17hats, Jan 2016 - Oct 2016
-  * Designed and implemented backend for a call center handling over 100 calls a day using Twilio
-  * Worked with front-end and mobile engineers to integrate with Twilio backend
-  * Improved backend performance by profiling code and tuning SQL queries
+  * Architected and implemented Twilio-based call center backend handling 100+ daily calls across 6 agents
 
 Senior Software Engineer - Quri, May 2013 - Jan 2016
   * Developed system for mass payment processing for EasyShift using Ruby on Rails
   * Created revenue recognition system using Ruby on Rails and Salesforce
-  * Identified and fixed critical bugs and optimized features in a large Ruby on Rails application
   * Designed and implemented KPI dashboard using Chartio
   * Trained non-technical staff to analyze data using SQL queries and Chartio
 
 Software Engineer - Bleacher Report, Sept 2011 - Apr 2013
-  * Created a Node.js service in Coffeescript that delivered millions of push notifications a day
+  * Scaled push notification system from 100K to 10M users (5M notifications/day) by evolving architecture through 3 iterations (single-threaded, multi-threaded, and Node.js/Redis)
   * Developed the backend for a game called "Start, Sit, Cut" using Ruby on Rails
-  * Optimized login authentication through Facebook using Javascript
-  * Debugged and created instrumentation for concurrent code
-
-System Administrator - University of Florida (UF), Science Library, Apr 2010 - Aug 2011
-  * Created visualization of the organizational hierarchy of UF, from semantic web data in VIVO
-  * Designed and implemented several open source utilities to extract and manage RDF data
-  * Managed installation and upgrades of VIVO.
-  * Automated server configuration and deployment with Ruby Chef
-
-Web Developer - UF, Department of Housing, Feb 2008 - Mar 2010
-  * Designed and implemented two internal web applications with over 100 users
-  * Helped maintain legacy web applications on a large code base (>200 KLOC)
-  * Led migration of more than 20 web applications from Jetspeed Portal to JBoss Portal
-  * Implemented automated software testing to improve development time using TestNG
-
-Database Administrator - UF, Computer Networking Services, Jul 2004 - Feb 2008
-  * Developed an automated backup solution for DB2 using TSM to handle 40 GB of data
-  * Designed and implemented an automated database growth size tracking system
 
 Portfolio
 
@@ -89,4 +57,4 @@ Portfolio
 Education
 
 University of Florida, Gainesville, Florida
-BS in Computer Engineering; May 2004
+BS in Computer Engineering
