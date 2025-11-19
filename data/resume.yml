@@ -18,7 +18,6 @@ work_history:
     dates: Apr 2020 - Aug 2023
     accomplishments:
       - Re-architected ad platform from push to pull model, driving 30% YoY inventory growth through faster deployment of new ad formats
-      - Reduced system complexity by consolidating ad serving logic into centralized request server, improving reliability and accelerating feature development
       - Created proactive monitoring across ad formats and client types, detecting delivery failures within minutes and preventing revenue loss
       - Mentored multiple engineers across experience levels, with 3 direct mentees promoted to engineering team lead roles
   - title: Software Engineer
