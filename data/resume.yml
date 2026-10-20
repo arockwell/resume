@@ -6,6 +6,13 @@ heading: Senior Software Engineer
 overview: Experience in application development, data analysis, database design, and system administration
 work_history:
   - title: Senior Software Engineer
+    location: Honeybee Health
+    dates: Dec 2025 - Sept 2026
+    accomplishments:
+    - Built an order-blocking system that evaluated practitioner credential records and held orders with missing or expired credentials for operations review
+    - Built tooling to run full-stack environments per Git worktree with separate database schemas, enabling coding agents to run end-to-end Playwright tests alongside ongoing development
+    - Built a tool for pharmacy staff to upload patient identification documents, including frontend, backend, and S3 storage
+  - title: Senior Software Engineer
     location: Order.co
     dates: Apr 2024 - Sept 2025
     accomplishments:
