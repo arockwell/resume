@@ -9,14 +9,19 @@ Experience in application development, data analysis, database design, and syste
 
 Skills
 
-Programming Languages: Ruby, Javascript, Python, Go, and Java
+Programming Languages: Ruby, JavaScript, Python, Go, Java, and TypeScript
 Web Development: Ruby on Rails, Vue.js, React, and CSS
-Databases Technologies: MySQL, PostgreSQL, Redis, SQL
+Database Technologies: MySQL, PostgreSQL, Redis, SQL
 Messaging Systems: Kafka and RabbitMQ
-CI/CD Tools: Circle CI, Github Actions, and Jenkins
-Cloud Monitoring Tools: Sumologic, Scoutapp, New Relic, Datadog, and Grafana
+CI/CD Tools: CircleCI, GitHub Actions, and Jenkins
+Cloud Monitoring Tools: Sumo Logic, Scout, New Relic, Datadog, and Grafana
 
 Work History
+
+Senior Software Engineer - Honeybee Health, Dec 2025 - Sept 2026
+  * Built an order-blocking system that evaluated practitioner credential records and held orders with missing or expired credentials for operations review
+  * Built tooling to run full-stack environments per Git worktree with separate database schemas, enabling coding agents to run end-to-end Playwright tests alongside ongoing development
+  * Built a tool for pharmacy staff to upload patient identification documents, including frontend, backend, and S3 storage
 
 Senior Software Engineer - Order.co, Apr 2024 - Sept 2025
   * Redesigned and rebuilt invoice generation system, cutting P95 build time to <1s, boosting test coverage to 90%, and improving code maintainability
@@ -32,6 +37,12 @@ Senior Software Engineer - Doximity, Apr 2020 - Aug 2023
 Software Engineer - Doximity, Mar 2018 - Mar 2020
   * Architected 3-stage event pipeline (Kafka/Rails) processing millions of daily events, improving system resilience and enabling recovery from processing failures
   * Created the dialer ads api in Ruby on Rails unlocking $100mm/year in revenue opportunity
+
+Senior Software Engineer - TeamSnap, Apr 2017 - Dec 2017
+  * Analyzed company infrastructure and planned architecture evolution as member of dedicated architecture team
+
+Senior Software Engineer - SharpSpring, Nov 2016 - Mar 2017
+  * Helped build job processing system in Go
 
 Senior Software Engineer - 17hats, Jan 2016 - Oct 2016
   * Architected and implemented Twilio-based call center backend, enabling new product launch handling 100+ daily calls
