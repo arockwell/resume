@@ -10,7 +10,7 @@ work_history:
     dates: Apr 2024 - Sept 2025
     accomplishments:
     - Redesigned and rebuilt invoice generation system, cutting P95 build time to <1s, boosting test coverage to 90%, and improving code maintainability
-    - Automated KYC/AML compliance checks by integrating intake forms with decision engine, accelerating customer onboarding and reducing manual verification errors 
+    - Automated KYC/AML compliance checks by integrating intake forms with decision engine, accelerating customer onboarding and reducing manual verification errors
     - Built Zendesk integration that auto-populated customer context, reducing average resolution time by 30%
     - Mentored engineers through code reviews and pairing, improving team code quality and engineering practices
   - title: Senior Software Engineer 
