@@ -27,6 +27,16 @@ work_history:
       - Architected 3-stage event pipeline (Kafka/Rails) processing millions of daily events, improving system resilience and enabling recovery from processing failures
       - Created the dialer ads api in Ruby on Rails unlocking $100mm/year in revenue opportunity
   - title: Senior Software Engineer
+    location: TeamSnap
+    dates: Apr 2017 - Dec 2017
+    accomplishments:
+    - Analyzed company infrastructure and planned architecture evolution as member of dedicated architecture team
+  - title: Senior Software Engineer
+    location: SharpSpring
+    dates: Nov 2016 - Mar 2017
+    accomplishments:
+    - Helped build job processing system in Go
+  - title: Senior Software Engineer
     location: 17hats
     dates: Jan 2016 - Oct 2016
     accomplishments:
