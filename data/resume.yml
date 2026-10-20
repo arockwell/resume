@@ -51,14 +51,14 @@ work_history:
 skills:
   -
     - Programming Languages
-    - Ruby, Javascript, Python, Go, and Java
+    - Ruby, JavaScript, Python, Go, Java, and TypeScript
 
   -
     - Web Development
     - Ruby on Rails, Vue.js, React, and CSS
 
   -
-    - Databases Technologies
+    - Database Technologies
     - MySQL, PostgreSQL, Redis, SQL
 
   - 
@@ -67,11 +67,11 @@ skills:
 
   -
     - CI/CD Tools
-    - Circle CI, Github Actions, and Jenkins
+    - CircleCI, GitHub Actions, and Jenkins
   
   - 
     - Cloud Monitoring Tools
-    - Sumologic, Scoutapp, New Relic, Datadog, and Grafana
+    - Sumo Logic, Scout, New Relic, Datadog, and Grafana
 
 education:
   location: University of Florida, Gainesville, Florida
